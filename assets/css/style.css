@@ -29,10 +29,6 @@ p {
   text-justify: newspaper;
 }
 
-#e-skills {
-  text-align: left;
-}
-
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -48,13 +44,7 @@ p {
   color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
-}
-
-.back-to-top i {
-  font-size: 24px;
-  position: absolute;
-  top: 7px;
-  left: 8px;
+  font-size: 26px;
 }
 
 .back-to-top:hover {
@@ -102,6 +92,32 @@ p {
   width: 28px;
 }
 
+.de-icons {
+  fill:#1379a8;
+  border-radius: 100px;
+  border: 2px solid #1379a8; 
+  width: 40px;
+  height: 80px;
+  background: #f5f8fd;
+}
+
+.de-icons:hover {
+  fill: #ffffff;
+  border-radius: 100px;
+  border: 2px solid #1379a8; 
+  width: 40px;
+  height: 80px;
+  background: #1379a8;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+
+#de-texts {
+margin-top: -60px;
+}
+
 .nav-menu span,
 .nav-menu-alt span {
   padding-left: 10px;
@@ -124,7 +140,7 @@ p {
 
 .small-icons {
   fill: #fff;
-  width: 50px;
+  width: 30px;
 }
 
 #download-btn {
@@ -175,12 +191,32 @@ p {
 /*--------------------------------------------------------------
 # Logo
 --------------------------------------------------------------*/
-#header .logo img,
-#header .logo-alt img {
-  margin: 60px auto auto;
-  display: block;
+
+#header .logo {
+  fill: #fff;
   width: 100px;
+  position: relative;
+  margin: 50px auto auto;
+  display: block;
+  border-radius: 100px;
   border: 4px solid #3c4261;
+  padding: 14px; 
+}
+
+
+#header .logo:hover {
+  fill: #3c4261;
+  width: 100px;
+  position: relative;
+  margin: 50px auto auto;
+  display: block;
+  border-radius: 100px;
+  border: 4px solid #3c4261;
+  padding: 14px;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
 }
 
 /*--------------------------------------------------------------
@@ -413,7 +449,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Profile Preview (#about)
+# Profile Depiction (#about)
 --------------------------------------------------------------*/
 .about .content h3 {
   font-size: 22px;
@@ -443,7 +479,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Work Synopsis (#facts)
+# Digital Summary (#facts)
 --------------------------------------------------------------*/
 .facts {
   padding-bottom: 30px;
@@ -472,7 +508,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Technical Tools (#skills)
+# Software Widget (#skills)
 --------------------------------------------------------------*/
 .skills .progress {
   height: 50px;
@@ -507,7 +543,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Upshot Resume (#resume)
+# Resume Preview (#resume)
 --------------------------------------------------------------*/
 .resume .resume-title {
   font-size: 22px;
@@ -590,7 +626,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Digital Portfolio (#portfoli)
+# Portfolio Upshot (#portfoli)
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
@@ -660,15 +696,15 @@ section {
 
 .portfolio .portfolio-wrap .portfolio-links a {
   color: #fff;
-  font-size: 24px;
+  font-size: 16px;
   text-align: center;
-  background: rgba(20, 157, 221, 0.65);
+  background: rgba(20, 157, 221, 0.5);
   transition: 0.3s;
   width: 50%;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: rgba(20, 157, 221, 0.5);
+  background: rgba(20, 157, 221, 0.80);
 }
 
 .portfolio .portfolio-wrap .portfolio-links a + a {
@@ -689,7 +725,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Expertise Skills (#services)
+# Design Expertise (#services)
 --------------------------------------------------------------*/
 .services .icon-box {
   margin-bottom: 20px;
@@ -707,10 +743,6 @@ section {
   transition: 0.5s;
 }
 
-.services .icon-box:hover .icon {
-  background: #149ddd;
-}
-
 .services .title {
   margin-left: 80px;
   font-weight: 700;
@@ -725,7 +757,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Testimonial List (#testimonial)
+# Testimonial Messages (#testimonial)
 --------------------------------------------------------------*/
 .testimonials .testimonial-item {
   box-sizing: content-box;
@@ -740,16 +772,22 @@ section {
 }
 
 .testimonials .testimonial-item h3 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
   margin: 10px 0 5px 0;
   color: #111;
 }
 
 .testimonials .testimonial-item h4 {
-  font-size: 14px;
+  font-size: 16px;
   color: #999;
   margin: 0;
+}
+
+.testimonials .testimonial-item h5 {
+  font-size: 14px;
+  color: rgb(114, 114, 114);
+  margin: 4px 0 5px 0;
 }
 
 .testimonials .testimonial-item .quote-icon-left,
@@ -772,7 +810,7 @@ section {
 }
 
 .testimonials .testimonial-item p {
-  font-style: italic;
+  font-size: 16px;
   margin: 0 15px 15px 15px;
   padding: 20px;
   background: #fff;
@@ -780,6 +818,7 @@ section {
   margin-bottom: 35px;
   border-radius: 6px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  text-justify: distribute-all-lines;
 }
 
 .testimonials .testimonial-item p::after {
@@ -820,7 +859,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Contact Details (#contact)
+# Contact Synopsis (#contact)
 --------------------------------------------------------------*/
 .contact {
   padding-bottom: 130px;
