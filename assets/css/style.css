@@ -339,7 +339,7 @@ margin-top: -60px;
 
 #hero:before {
   content: "";
-  background: rgba(5, 13, 24, 0);
+  background: rgba(5, 13, 24, 0.3);
   position: absolute;
   bottom: 0;
   top: 0;
