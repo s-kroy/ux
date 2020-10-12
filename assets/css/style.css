@@ -195,6 +195,7 @@ margin-top: -60px;
 #header .logo {
   fill: #fff;
   width: 100px;
+  height: 100px;
   position: relative;
   margin: 50px auto auto;
   display: block;
