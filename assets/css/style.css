@@ -143,19 +143,10 @@ margin-top: -60px;
   width: 30px;
 }
 
-#download-btn {
-  width: 36px;
-  fill: #1379a8;
-}
-
-#love-btn {
-  width: 40px;
-  fill: #ff0000;
-}
-
 .contact-icons {
   fill: #1379a8;
   width: 60px;
+  height: 60px;
   margin-bottom: 40px;
 }
 
