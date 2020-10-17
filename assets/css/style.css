@@ -154,21 +154,6 @@ margin-top: -60px;
   display: inline-block;
 }
 
-.contact .info h4 {
-  padding: 0 0 0 4px;
-  font-size: 22px;
-  font-weight: 600;
-  margin-bottom: 5px;
-  color: #050d18;
-}
-
-.contact .info p {
-  padding: 0 0 0 4px;
-  margin-bottom: 40px;
-  font-size: 14px;
-  color: #173b6c;
-}
-
 .social-links-icons {
   width: 29px;
   height: 30px;
@@ -864,6 +849,19 @@ section {
   background: #fff;
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+
+.contact .info h4 {
+  padding: 0 0 0 4px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #050d18;
+}
+
+.contact .info p {
+  padding: 0 0 0 4px;
+  font-size: 14px;
+  color: #173b6c;
 }
 
 .contact .php-email-form {
