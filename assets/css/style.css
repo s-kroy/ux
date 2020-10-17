@@ -866,20 +866,6 @@ section {
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 
-.contact .info i {
-  font-size: 20px;
-  color: #1379a8;
-  float: left;
-  width: 44px;
-  height: 44px;
-  background: #dff3fc;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50px;
-  transition: all 0.3s ease-in-out;
-}
-
 .contact .php-email-form {
   width: 100%;
   padding: 30px;
@@ -984,7 +970,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Breadcrumbs (Portal Application - Mobile Application - Print Publications - Abstract Paintings)
+# Breadcrumbs (Project Page)
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 40px 0;
@@ -1162,16 +1148,4 @@ section {
     width: auto;
     padding-right: 10px 15px;
   }
-}
-
-/*--------------------------------------------------------------
-#Love Button (Portal Application - Mobile Application - Print Publications - Abstract Paintings)
---------------------------------------------------------------*/
-
-#like-btn-1,
-#like-btn-2,
-#like-btn-3,
-#like-btn-4 {
-  color: #ff0000;
-  opacity: 1;
 }
