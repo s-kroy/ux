@@ -180,11 +180,13 @@ margin-top: -60px;
 
 .social-links-icons {
   width: 29px;
+  height: 30px;
   fill: #3c4261;
 }
 
 .social-links-icons:hover {
   width: 29px;
+  height: 30px;
   fill: #9b9b9b;
 }
 
