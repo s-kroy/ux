@@ -198,6 +198,64 @@ margin-top: -60px;
   transition-delay: 0s;
 }
 
+
+#header .logo {
+  fill: #fff;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  margin: 50px auto auto;
+  display: block;
+  border-radius: 100px;
+  border: 4px solid #3c4261;
+  padding: 14px; 
+}
+
+
+#header .logo:hover {
+  fill: #3c4261;
+  width: 100px;
+  position: relative;
+  margin: 50px auto auto;
+  display: block;
+  border-radius: 100px;
+  border: 4px solid #3c4261;
+  padding: 14px;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+
+
+#header .logo-alt {
+  fill: #fff;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  margin: 50px auto auto;
+  display: block;
+  border-radius: 100px;
+  border: 4px solid #3c4261;
+  padding: 14px; 
+}
+
+
+#header .logo-alt:hover {
+  fill: #3c4261;
+  width: 100px;
+  position: relative;
+  margin: 50px auto auto;
+  display: block;
+  border-radius: 100px;
+  border: 4px solid #3c4261;
+  padding: 14px;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu (Desktop)
 --------------------------------------------------------------*/
@@ -1146,4 +1204,3 @@ section {
     width: auto;
     padding-right: 10px 15px;
   }
-}
