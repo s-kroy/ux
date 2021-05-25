@@ -61,7 +61,7 @@ Header Section Part
   top: 0;
   left: 0;
   bottom: 0;
-  width: 230px;
+  width: 240px;
   transition: all ease-in-out 0.5s;
   z-index: 9999;
   transition: all 0.5s;
@@ -88,8 +88,15 @@ Total vector Icons
 ----------------------------------------------------------------------------------------------------------------------------*/
 
 .navbar-icons {
-  fill: lightgray;
-  width: 28px;
+  fill: rgb(187, 187, 187);
+  width: 30px;
+  height: 30px;
+}
+
+.navbar-icons:hover {
+  fill: rgb(255, 255, 255);
+  width: 30px;
+  height: 30px;
 }
 
 .de-icons {
@@ -121,8 +128,8 @@ margin-top: -60px;
 .nav-menu span,
 .nav-menu-alt span {
   padding-left: 10px;
-  margin-bottom: 8px;
-  margin-top: 8px;
+  margin: 8px;
+
 }
 
 .big-icons {
@@ -152,18 +159,6 @@ margin-top: -60px;
 
 .icons-text {
   display: inline-block;
-}
-
-.social-links-icons {
-  width: 36px;
-  height: 36px;
-  fill: #3c4261;
-}
-
-.social-links-icons:hover {
-  width: 36px;
-  height: 36px;
-  fill: #bbbbbb;
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
@@ -308,7 +303,7 @@ Navigation Menu - (Mobile)
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
-Hero Image Section
+Hero Image
 ----------------------------------------------------------------------------------------------------------------------------*/
 #hero {
   width: 100%;
@@ -326,7 +321,7 @@ Hero Image Section
 
 #hero h1 {
   margin: 0 0 10px 0;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 550;
   line-height: 56px;
   color: #fff;
@@ -374,7 +369,7 @@ Hero Image Section
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
-All Section's General
+General Section
 ----------------------------------------------------------------------------------------------------------------------------*/
 section {
   padding: 60px 0;
@@ -419,7 +414,7 @@ section {
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
-Navbar Profile Summary (#about)
+Profile Depections
 ----------------------------------------------------------------------------------------------------------------------------*/
 .about .content h3 {
   font-size: 22px;
@@ -449,7 +444,7 @@ Navbar Profile Summary (#about)
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
-Sub Nav Job Appreciation (#facts)
+Recognation
 ----------------------------------------------------------------------------------------------------------------------------*/
 .facts {
   padding-bottom: 30px;
@@ -484,7 +479,7 @@ Sub Nav Job Appreciation (#facts)
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
-Navbar Software Widget (#skills)
+Tools Proficency
 ----------------------------------------------------------------------------------------------------------------------------*/
 .skills .progress {
   height: 50px;
@@ -519,7 +514,7 @@ Navbar Software Widget (#skills)
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
-Navbar Work Experience (#resume)
+Work Experience
 ----------------------------------------------------------------------------------------------------------------------------*/
 .resume .resume-title {
   font-size: 26px;
@@ -593,7 +588,7 @@ Navbar Work Experience (#resume)
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
-Navbar Portfolio Upshots (#portfolio)
+Portfolio Widgets
 ----------------------------------------------------------------------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
@@ -692,7 +687,7 @@ Navbar Portfolio Upshots (#portfolio)
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
-Navbar Design Expertise (#services)
+Design Expertise
 ----------------------------------------------------------------------------------------------------------------------------*/
 .services .icon-box {
   margin-bottom: 20px;
@@ -724,7 +719,7 @@ Navbar Design Expertise (#services)
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
-Sub Nav Shared Messages (#testimonial)
+Testimonial
 ----------------------------------------------------------------------------------------------------------------------------*/
 .testimonials .testimonial-item {
   box-sizing: content-box;
@@ -826,7 +821,32 @@ Sub Nav Shared Messages (#testimonial)
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
-Navbar Contact Synopsis (#contact)
+Social Links
+----------------------------------------------------------------------------------------------------------------------------*/
+#header .social-media .social-links a {
+  font-size: 10px;
+  display: inline-block;
+  background: #3c4261;
+  fill: #091330;
+  line-height: 1;
+  padding: 0;
+  margin: 2px;
+  border-radius: 18%;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  transition: 0.9s;
+}
+
+#header .social-media .social-links a:hover {
+  background: #1379a8;
+  fill: #fff;
+  text-decoration: none;
+}
+
+
+/*----------------------------------------------------------------------------------------------------------------------------
+Contact Synopsis
 ----------------------------------------------------------------------------------------------------------------------------*/
 .contact {
   padding-bottom: 130px;
@@ -955,10 +975,10 @@ Navbar Contact Synopsis (#contact)
   }
 }
 
-/* Details Page Stylings ====================================================================================================== */
+/* 2nd Page Stylings ======================================================================================================= */
 
 /*----------------------------------------------------------------------------------------------------------------------------
-# Breadcrumbs
+Breadcrumbs
 ----------------------------------------------------------------------------------------------------------------------------*/
 .breadcrumbs {
   padding: 40px 0;
@@ -1002,7 +1022,7 @@ Navbar Contact Synopsis (#contact)
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
-# All Sections
+Page Content
 ----------------------------------------------------------------------------------------------------------------------------*/
 .portfolio-details {
   padding-top: 0;
@@ -1099,40 +1119,41 @@ Navbar Contact Synopsis (#contact)
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
-# Footer
+# Footer Tag
 ----------------------------------------------------------------------------------------------------------------------------*/
-
 #footer {
-  padding: 15px;
+  padding: 1.5em;
   color: #f4f6fd;
-  font-size: 22px;
   position: fixed;
   left: 0;
   bottom: 0;
-  width: 230px;
+  width: 240px;
   z-index: 9999;
   background: #091330;
 }
 
 #footer .copyright {
   text-align: center;
-  padding-top: 2px;
+}
+
+#footer .copyright a {
+  padding-top: 6px;
   text-align: center;
-  font-size: 12px;
+  font-size: 14px;
   color: #3c4261;
 }
 
 #footer .copyright a:hover {
+  padding-top: 6px;
   text-align: center;
-  padding-top: 2px;
-  text-align: center;
-  font-size: 12px;
-  color: #9b9b9b;
+  font-size: 14px;
+  color: #666d8f;
 }
 
-@media (max-width: 1199px) {}
+@media (max-width: 1199px) {
   #footer {
     position: static;
     width: auto;
-    padding-right: 10px 15px;
+    padding-right: 20px 15px;
   }
+}
