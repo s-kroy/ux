@@ -94,9 +94,15 @@ Total vector Icons
 }
 
 .navbar-icons:hover {
-  fill: rgb(255, 255, 255);
+  fill: #fff;
   width: 30px;
   height: 30px;
+}
+
+.nav-menu span,
+.nav-menu-alt span {
+  padding-left: 4px;
+  margin: 12px;
 }
 
 .de-icons {
@@ -123,13 +129,6 @@ Total vector Icons
 
 #de-texts {
 margin-top: -60px;
-}
-
-.nav-menu span,
-.nav-menu-alt span {
-  padding-left: 10px;
-  margin: 8px;
-
 }
 
 .big-icons {
@@ -831,7 +830,7 @@ Social Links
   line-height: 1;
   padding: 0;
   margin: 2px;
-  border-radius: 18%;
+  border-radius: 50%;
   text-align: center;
   width: 30px;
   height: 30px;
@@ -839,7 +838,7 @@ Social Links
 }
 
 #header .social-media .social-links a:hover {
-  background: #1379a8;
+  background: #3c4261;
   fill: #fff;
   text-decoration: none;
 }
