@@ -272,17 +272,17 @@ Navigation Menu - (Mobile)
 ----------------------------------------------------------------------------------------------------------------------------*/
 .mobile-nav-toggle {
   position: fixed;
-  right: 15px;
+  left: 15px;
   top: 15px;
   z-index: 9998;
   border: 0;
-  background: none;
-  font-size: 24px;
+  background: none !important;
+  font-size: 20px;
   transition: all 0.4s;
   outline: none !important;
   line-height: 1;
   cursor: pointer;
-  text-align: right;
+  text-align: right; 
 }
 
 .mobile-nav-toggle i {
