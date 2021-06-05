@@ -285,6 +285,17 @@ Navigation Menu - (Mobile)
   text-align: right; 
 }
 
+#burger-menu {
+  width: 36px;
+  fill: #3c4261;
+}
+
+#burger-menu:hover {
+  width: 36px;
+  fill: lightgray;
+  transition: all 0.2s;
+}
+
 .mobile-nav-toggle i {
   color: #ffffff;
 }
