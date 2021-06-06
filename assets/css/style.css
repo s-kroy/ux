@@ -621,14 +621,18 @@ Portfolio Widgets
   font-weight: 600;
   line-height: 1;
   text-transform: capitalize;
-  color: #272829;
-  margin-bottom: 5px;
+  color: #1379a8;
+  margin: 2px;
   transition: all 0.3s ease-in-out;
 }
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #1379a8;
+  color: #082d58;
+  background: rgba(20, 157, 221, 0.295);
+  line-height: 1;
+  transition: all 0.3s ease-in-out;
+  border-radius: 50px;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -1111,7 +1115,16 @@ Page Content
   margin-bottom: 10px;
   padding-bottom: 10px;
   position: relative;
-  color: #173b6c;
+  color: #1379a8;
+}
+
+#details-title h2:hover {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  position: relative;
+  color: #091330;
 }
 
 .portfolio-details .portfolio-description p {
