@@ -88,15 +88,15 @@ Total vector Icons
 ----------------------------------------------------------------------------------------------------------------------------*/
 
 .navbar-icons {
-  fill: rgb(187, 187, 187);
-  width: 30px;
-  height: 30px;
+  fill: #6f7180;
+  width: 32px;
+  height: 32px;
 }
 
 .navbar-icons:hover {
   fill: #fff;
-  width: 30px;
-  height: 30px;
+  width: 32px;
+  height: 32px;
 }
 
 .nav-menu span,
@@ -219,7 +219,7 @@ Navigation Menu (Desktop)
 .nav-menu-alt a {
   display: flex;
   align-items: center;
-  color: #a8a9b4;
+  color: #6f7180;
   padding: 8px;
   transition: 0.3s;
   font-size: 16px;
