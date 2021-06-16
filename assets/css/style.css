@@ -89,14 +89,14 @@ Total vector Icons
 
 .navbar-icons {
   fill: #6f7180;
-  width: 32px;
-  height: 32px;
+  width: 36px;
+  height: 36px;
 }
 
 .navbar-icons:hover {
   fill: #fff;
-  width: 32px;
-  height: 32px;
+  width: 36px;
+  height: 36px;
 }
 
 .nav-menu span,
@@ -151,9 +151,9 @@ margin-top: -60px;
 
 .contact-icons {
   fill: #1379a8;
-  width: 60px;
-  height: 60px;
-  margin-bottom: 20px;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 40px;
 }
 
 .icons-text {
