@@ -24,11 +24,6 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
-p {
-  text-align: justify;
-  text-justify: newspaper;
-}
-
 /*----------------------------------------------------------------------------------------------------------------------------
 Back to top button
 ----------------------------------------------------------------------------------------------------------------------------*/
@@ -150,10 +145,12 @@ margin-top: -60px;
 }
 
 .contact-icons {
-  fill: #1379a8;
+  fill: #ffffff;
   width: 40px;
   height: 40px;
   margin-bottom: 40px;
+  background-color: #1379a8;
+  border-radius: 50%;
 }
 
 .icons-text {
