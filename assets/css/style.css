@@ -406,7 +406,7 @@ section {
 }
 
 .section-title h2 {
-  font-size: 32px;
+  font-size: 30px;
   font-weight: bold;
   margin-bottom: 20px;
   padding-bottom: 20px;
@@ -419,7 +419,7 @@ section {
   position: absolute;
   display: block;
   width: 50px;
-  height: 3px;
+  height: 4px;
   background: #1379a8;
   bottom: 0;
   left: 0;
@@ -570,12 +570,14 @@ Work Experience
 }
 
 .resume .resume-item h5 {
-  font-size: 16px;
+  font-size: 14px;
   background: #e4edf9;
-  padding: 5px 15px;
+  padding: 5px 10px;
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
+  border-radius: 2px;
+  color: #1379a8;
 }
 
 .resume h5 {
@@ -607,6 +609,24 @@ Work Experience
 .resume-certificate h5 {
   padding-top: 10px;
 }
+
+.resume-certificate ul a {
+  color: #1379a8;
+  padding: 4px;
+}
+
+.resume-certificate ul a:hover {
+  color: #1379a8;
+  background-color: #e4edf9;
+  padding: 4px 14px 4px 4px;
+  border-radius: 50px;
+  }
+
+  .certificate-icon {
+    fill: #1379a8;
+    width: 32px;
+    height: 32px;
+  }
 
 /*----------------------------------------------------------------------------------------------------------------------------
 Portfolio Widgets
