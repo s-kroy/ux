@@ -150,12 +150,25 @@ margin-top: -60px;
 }
 
 .contact-icons {
-  fill: #ffffff;
+  fill: #1379a8;
   width: 40px;
   height: 40px;
   margin-bottom: 40px;
-  background-color: #1379a8;
+  background-color: #f5f8fd; 
   border-radius: 50%;
+}
+
+.contact-icons:hover {
+  fill: #fff;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 40px;
+  background-color: #1379a8; 
+  border-radius: 50%;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
 }
 
 .icons-text {
@@ -539,49 +552,6 @@ Tools Proficency
 /*----------------------------------------------------------------------------------------------------------------------------
 Work Experience
 ----------------------------------------------------------------------------------------------------------------------------*/
-.resume .resume-title {
-  font-size: 26px;
-  font-weight: 800;
-  text-align: center;
-  margin-bottom: 20px;
-  color: #1379a8;
-}
-
-.resume .resume-item {
-  padding: 0 0 40px 20px;
-  border-left: 2px solid #1379a8;
-  position: relative;
-}
-
-.resume .resume-item h3 {
-  line-height: 28px;
-  font-size: 20px;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  color: #050d18;
-  margin-bottom: 10px;
-}
-
-.resume .resume-item h4 {
-  line-height: 24px;
-  font-size: 18px;
-  font-weight: 400;
-  font-family: "Poppins", sans-serif;
-  color: #050d18;
-  margin-bottom: 8px;
-}
-
-.resume .resume-item h5 {
-  font-size: 14px;
-  background: #e4edf9;
-  padding: 5px 10px;
-  display: inline-block;
-  font-weight: 600;
-  margin-bottom: 10px;
-  border-radius: 2px;
-  color: #1379a8;
-}
-
 .resume h5 {
   font-size: 20px;
   background: #ffffff;
@@ -591,44 +561,88 @@ Work Experience
   margin-bottom: 10px;
 }
 
-.resume .resume-item ul {
-  padding-left: 20px;
-}
-
-.resume .resume-item ul li {
-  padding-bottom: 10px;
-}
-
-.resume .resume-item:last-child {
-  padding-bottom: 0;
-}
-
-.resume-certificate ul {
-  padding-left: 10px;
-  padding-right: 4px;
-}
-
-.resume-certificate h5 {
-  padding-top: 10px;
-}
-
-.resume-certificate ul a {
+.resume .resume-title {
+  font-size: 26px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 20px;
   color: #1379a8;
-  padding: 4px;
 }
 
-.resume-certificate ul a:hover {
+.resume .academic-education h5{
+  margin-left: 0px;
+  padding-top: 20px;
+}
+
+.resume .academic-education ul{
+  color: #1379a8;
+  margin-left: -20px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------- */
+.resume .training-certificate h5{
+  margin-left: 0px;
+  margin-top: -20px;
+}
+
+.resume .training-certificate ul a{
+  padding: 4px;
+  color: #1379a8;
+  margin-left: -28px;
+}
+
+.resume .training-certificate ul a:hover {
   color: #1379a8;
   background-color: #e4edf9;
   padding: 4px 14px 4px 4px;
   border-radius: 50px;
   }
 
-  .certificate-icon {
-    fill: #1379a8;
-    width: 32px;
-    height: 32px;
-  }
+.resume .certificate-icon {
+  fill: #1379a8;
+  width: 30px;
+  height: 30px;
+}
+/* ------------------------------------------------------------------------------------------------------------------------- */
+.resume .employment-history {
+  padding: 0 0 30px 20px;
+  border-left: 2px solid #1379a8;
+  position: relative;
+}
+
+.resume .employment-history h3 {
+  line-height: 28px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #050d18;
+  margin-bottom: 10px;
+  margin-top: 8px;
+}
+
+.resume .employment-history h4 {
+  line-height: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: #050d18;
+  margin-bottom: 8px;
+}
+
+.resume .employment-history h5 {
+  font-size: 16px;
+  background: #e4edf9;
+  padding: 5px 10px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: -10px;
+  border-radius: 4px;
+  color: #1379a8;
+}
+
+.resume .employment-history:last-child {
+  padding-bottom: 0;
+}
 
 /*----------------------------------------------------------------------------------------------------------------------------
 Portfolio Widgets
