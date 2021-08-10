@@ -103,6 +103,8 @@ Total vector Icons
 .nav-menu-alt span {
   padding-left: 4px;
   margin: 12px;
+  display: block;
+  position: relative;
 }
 
 .de-icons {
@@ -625,19 +627,19 @@ Work Experience
   font-size: 16px;
   font-weight: 400;
   font-family: "Poppins", sans-serif;
-  color: #050d18;
+  color: #1379a8;
   margin-bottom: 8px;
 }
 
 .resume .employment-history h5 {
   font-size: 16px;
   background: #e4edf9;
-  padding: 5px 10px;
+  padding: 4px 14px;
   display: inline-block;
   font-weight: 600;
   margin-bottom: -10px;
-  border-radius: 2px;
-  color: #050d18;
+  border-radius: 20px;
+  color: #1379a8;
 }
 
 .resume .employment-history:last-child {
