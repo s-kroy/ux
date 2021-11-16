@@ -114,9 +114,11 @@ Total vector Icons
   width: 40px;
   height: 80px;
   background: #f5f8fd;
+  margin-top: 10px;
 }
 
 .de-icons:hover {
+  margin-top: 10px;
   fill: #ffffff;
   border-radius: 100px;
   border: 2px solid #1379a8; 
@@ -130,16 +132,16 @@ Total vector Icons
 }
 
 #de-texts {
-margin-top: -60px;
+margin-top: -80px;
+}
+
+.big-icon-box {
+  margin-bottom: -80px;
 }
 
 .big-icons {
   fill: #1379a8;
   width: 60px;
-}
-
-.big-icon-box {
-  margin-bottom: -60px;
 }
 
 .big-icon-text {
@@ -769,15 +771,16 @@ Design Expertise
 }
 
 .services .title {
-  margin-left: 80px;
-  font-weight: 700;
-  margin-bottom: 15px;
+  margin-left: 56px;
+  font-weight: 600;
+  margin-bottom: 4px;
   font-size: 18px;
+  color: #1379a8;
 }
 
 .services .description {
-  margin-left: 80px;
-  line-height: 24px;
+  margin-left: 56px;
+  line-height: 20px;
   font-size: 14px;
 }
 
