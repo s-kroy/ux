@@ -427,8 +427,8 @@ section {
 .section-title h2 {
   font-size: 26px;
   font-weight: 600;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
   position: relative;
   color: #173b6c;
 }
@@ -437,7 +437,7 @@ section {
   content: "";
   position: absolute;
   display: block;
-  width: 50px;
+  width: 100px;
   height: 4px;
   background: #1379a8;
   bottom: 0;
@@ -587,7 +587,7 @@ Work Experience
 .resume .training-certificate h5{
   margin-left: 0px;
   margin-top: -20px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .resume .training-certificate ul a{
