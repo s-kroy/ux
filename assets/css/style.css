@@ -568,14 +568,15 @@ Work Experience
 .resume .resume-title {
   font-size: 24px;
   font-weight: 600;
-  text-align: center;
   margin-bottom: 20px;
   color: #1379a8;
+  display: inline-block;
+  border-bottom: 2px solid #1379a8;
 }
 
 .resume .academic-education h5{
   margin-left: 0px;
-  padding-top: 20px;
+  padding-top: 2px;
 }
 
 .resume .academic-education ul{
@@ -587,7 +588,7 @@ Work Experience
 .resume .training-certificate h5{
   margin-left: 0px;
   margin-top: -20px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .resume .training-certificate ul a{
