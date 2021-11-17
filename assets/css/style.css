@@ -458,7 +458,7 @@ Profile Depections
 ----------------------------------------------------------------------------------------------------------------------------*/
 .about .content h3 {
   font-size: 22px;
-  font-weight: 700;
+  font-weight: 600;
   text-align: center;
   margin: 10px;
   color: #1379a8;
@@ -496,10 +496,10 @@ Recognation
 }
 
 .facts .count-box span {
-  font-size: 48px;
+  font-size: 40px;
   line-height: 40px;
   display: block;
-  font-weight: 700;
+  font-weight: 600;
   color: #082d58;
   margin-left: 80px;
 }
@@ -508,7 +508,8 @@ Recognation
   padding: 10px 0 0 0;
   margin-left: 80px;
   font-family: "Raleway", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: 600;
   color: #1379a8;
 }
 
@@ -532,7 +533,8 @@ Tools Proficency
   margin: 0 0 6px 0;
   text-transform: none;
   display: block;
-  font-weight: 600;
+  font-weight: 500;
+  font-size: 14px;
   font-family: "Poppins", sans-serif;
   color: #050d18;
 }
