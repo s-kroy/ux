@@ -1,5 +1,5 @@
 /*----------------------------------------------------------------------------------------------------------------------------
-Overall General styling
+General styling
 ----------------------------------------------------------------------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
@@ -30,7 +30,7 @@ p {
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
-Back to top button
+Back-To-Top
 ----------------------------------------------------------------------------------------------------------------------------*/
 .back-to-top {
   position: fixed;
@@ -54,7 +54,7 @@ Back to top button
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
-Header Section Part
+Header Section
 ----------------------------------------------------------------------------------------------------------------------------*/
 #header {
   position: fixed;
@@ -84,9 +84,64 @@ Header Section Part
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
-Total vector Icons
+Website Logo
 ----------------------------------------------------------------------------------------------------------------------------*/
+#header .logo,
+.logo-alt {
+  fill: #fff;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  margin: 50px auto auto;
+  display: block;
+  border-radius: 100px;
+  border: 4px solid #3c4261;
+  padding: 14px; 
+}
 
+#header .logo:hover,
+.logo-alt:hover {
+  fill: #3c4261;
+  width: 100px;
+  position: relative;
+  margin: 50px auto auto;
+  display: block;
+  border-radius: 100px;
+  border: 4px solid #3c4261;
+  padding: 14px;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------
+Social Icons
+----------------------------------------------------------------------------------------------------------------------------*/
+#header .social-media .social-links a {
+  font-size: 10px;
+  display: inline-block;
+  background: #3c4261;
+  fill: #091330;
+  line-height: 1;
+  padding: 0;
+  margin: 2px;
+  border-radius: 50%;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  transition: 0.9s;
+}
+
+#header .social-media .social-links a:hover {
+  background: #3c4261;
+  fill: #fff;
+  text-decoration: none;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------
+Navigation Icons
+----------------------------------------------------------------------------------------------------------------------------*/
 .navbar-icons {
   fill: #6f7180;
   width: 36px;
@@ -105,112 +160,6 @@ Total vector Icons
   margin: 12px;
   display: block;
   position: relative;
-}
-
-.de-icons {
-  fill:#1379a8;
-  border-radius: 100px;
-  border: 2px solid #1379a8; 
-  width: 40px;
-  height: 80px;
-  background: #f5f8fd;
-  margin-top: 10px;
-}
-
-.de-icons:hover {
-  margin-top: 10px;
-  fill: #ffffff;
-  border-radius: 100px;
-  border: 2px solid #1379a8; 
-  width: 40px;
-  height: 80px;
-  background: #1379a8;
-  transition-property: all;
-  transition-duration: 0.5s;
-  transition-timing-function: ease;
-  transition-delay: 0s;
-}
-
-#de-texts {
-margin-top: -80px;
-}
-
-.big-icon-box {
-  margin-bottom: -80px;
-}
-
-.big-icons {
-  fill: #1379a8;
-  width: 60px;
-}
-
-.big-icon-text {
-  display: inline-block;
-}
-
-.small-icons {
-  fill: #fff;
-  width: 30px;
-}
-
-.contact-icons {
-  fill: #1379a8;
-  width: 40px;
-  height: 40px;
-  margin-bottom: 40px;
-  background-color: #f5f8fd; 
-  border-radius: 50%;
-}
-
-.contact-icons:hover {
-  fill: #fff;
-  width: 40px;
-  height: 40px;
-  margin-bottom: 40px;
-  background-color: #1379a8; 
-  border-radius: 50%;
-  transition-property: all;
-  transition-duration: 0.5s;
-  transition-timing-function: ease;
-  transition-delay: 0s;
-}
-
-.icons-text {
-  display: inline-block;
-}
-
-/*----------------------------------------------------------------------------------------------------------------------------
-Main Website's Logo
-----------------------------------------------------------------------------------------------------------------------------*/
-
-#header .logo,
-.logo-alt {
-  fill: #fff;
-  width: 100px;
-  height: 100px;
-  position: relative;
-  margin: 50px auto auto;
-  display: block;
-  border-radius: 100px;
-  border: 4px solid #3c4261;
-  padding: 14px; 
-}
-
-
-#header .logo:hover,
-.logo-alt:hover {
-  fill: #3c4261;
-  width: 100px;
-  position: relative;
-  margin: 50px auto auto;
-  display: block;
-  border-radius: 100px;
-  border: 4px solid #3c4261;
-  padding: 14px;
-  transition-property: all;
-  transition-duration: 0.5s;
-  transition-timing-function: ease;
-  transition-delay: 0s;
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
@@ -287,7 +236,7 @@ Navigation Menu (Desktop)
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
-Navigation Menu - (Mobile)
+Navigation Menu (Mobile)
 ----------------------------------------------------------------------------------------------------------------------------*/
 .mobile-nav-toggle {
   position: fixed;
@@ -409,7 +358,7 @@ Hero Image
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
-General Section
+Section Styling
 ----------------------------------------------------------------------------------------------------------------------------*/
 section {
   padding: 60px 0;
@@ -425,7 +374,7 @@ section {
 }
 
 .section-title h2 {
-  font-size: 26px;
+  font-size: 28px;
   font-weight: 600;
   margin-bottom: 10px;
   padding-bottom: 10px;
@@ -454,7 +403,7 @@ section {
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
-Profile Depections
+Profile Summary (Sidebar)
 ----------------------------------------------------------------------------------------------------------------------------*/
 .about .content h3 {
   font-size: 22px;
@@ -484,43 +433,7 @@ Profile Depections
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
-Recognation
-----------------------------------------------------------------------------------------------------------------------------*/
-.facts {
-  padding-bottom: 30px;
-}
-
-.facts .count-box {
-  padding: 30px;
-  width: 100%;
-}
-
-.facts .count-box span {
-  font-size: 40px;
-  line-height: 40px;
-  display: block;
-  font-weight: 600;
-  color: #082d58;
-  margin-left: 80px;
-}
-
-.facts .count-box p {
-  padding: 10px 0 0 0;
-  margin-left: 80px;
-  font-family: "Raleway", sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  color: #1379a8;
-}
-
-.job-appreciation ul{
-  margin-left: -20px;
-  margin-right: 4px;
-  
-}
-
-/*----------------------------------------------------------------------------------------------------------------------------
-Tools Proficency
+Tools Proficency (Sidebar)
 ----------------------------------------------------------------------------------------------------------------------------*/
 .skills .progress {
   height: 50px;
@@ -556,7 +469,50 @@ Tools Proficency
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
-Work Experience
+Work Experience (Sidebar)
+----------------------------------------------------------------------------------------------------------------------------*/
+.experience {
+  padding-bottom: 30px;
+}
+
+.experience .count-box {
+  padding: 30px;
+  width: 100%;
+}
+
+.experience .count-box span {
+  font-size: 40px;
+  line-height: 40px;
+  display: block;
+  font-weight: 600;
+  color: #173b6c;
+  margin-left: 80px;
+}
+
+.experience .count-box p {
+  padding: 10px 0 0 0;
+  margin-left: 80px;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1379a8;
+}
+
+.big-icon-box {
+  margin-bottom: -80px;
+}
+
+.big-icons {
+  fill: #1379a8;
+  width: 60px;
+}
+
+.big-icon-text {
+  display: inline-block;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------
+Academic Qualifications (Resume)
 ----------------------------------------------------------------------------------------------------------------------------*/
 .resume h5 {
   font-size: 20px;
@@ -567,13 +523,12 @@ Work Experience
   margin-bottom: 10px;
 }
 
-.resume .resume-title {
-  font-size: 24px;
+.resume .resume-title{
+  font-size: 22px;
   font-weight: 600;
-  margin-bottom: 20px;
+  margin-bottom: 22px;
   color: #1379a8;
-  display: inline-block;
-  border-bottom: 2px solid #1379a8;
+  text-align: center;
 }
 
 .resume .academic-education h5{
@@ -586,7 +541,9 @@ Work Experience
   margin-left: -20px;
 }
 
-/* ------------------------------------------------------------------------------------------------------------------------- */
+/*----------------------------------------------------------------------------------------------------------------------------
+Professional Certificates (Resume)
+----------------------------------------------------------------------------------------------------------------------------*/
 .resume .training-certificate h5{
   margin-left: 0px;
   margin-top: -20px;
@@ -611,7 +568,10 @@ Work Experience
   width: 30px;
   height: 30px;
 }
-/* ------------------------------------------------------------------------------------------------------------------------- */
+
+/*----------------------------------------------------------------------------------------------------------------------------
+Employment Chronology (Resume)
+--------------------------------------------------------------------------------------------------------------------------- */
 .resume .employment-history {
   padding: 0 0 30px 20px;
   border-left: 2px solid #1379a8;
@@ -652,9 +612,34 @@ Work Experience
   padding-bottom: 0;
 }
 
+.resume .employment-history::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #e4edf9;
+  border: 2px solid #1379a8;
+}
+
 /*----------------------------------------------------------------------------------------------------------------------------
-Portfolio Widgets
+Job Appreciation (Non Sidebar)
 ----------------------------------------------------------------------------------------------------------------------------*/
+.job-appreciation ul{
+  margin-left: -20px;
+  margin-right: 4px; 
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------
+Portfolio Widgets (Sidebar)
+----------------------------------------------------------------------------------------------------------------------------*/
+.small-icons {
+  fill: #fff;
+  width: 30px;
+}
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -756,13 +741,13 @@ Portfolio Widgets
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
-Design Expertise
+Design Expertise (Sidebar)
 ----------------------------------------------------------------------------------------------------------------------------*/
-.services .icon-box {
+.expertise .icon-box {
   margin-bottom: 20px;
 }
 
-.services .icon {
+.expertise .icon {
   float: left;
   display: flex;
   align-items: center;
@@ -774,7 +759,7 @@ Design Expertise
   transition: 0.5s;
 }
 
-.services .title {
+.expertise .title {
   margin-left: 56px;
   font-weight: 600;
   margin-bottom: 4px;
@@ -782,14 +767,42 @@ Design Expertise
   color: #1379a8;
 }
 
-.services .description {
+.expertise .description {
   margin-left: 56px;
   line-height: 20px;
   font-size: 14px;
 }
 
+.de-icons {
+  fill:#1379a8;
+  border-radius: 100px;
+  border: 2px solid #1379a8; 
+  width: 40px;
+  height: 80px;
+  background: #f5f8fd;
+  margin-top: 10px;
+}
+
+.de-icons:hover {
+  margin-top: 10px;
+  fill: #ffffff;
+  border-radius: 100px;
+  border: 2px solid #1379a8; 
+  width: 40px;
+  height: 80px;
+  background: #1379a8;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+
+#de-texts {
+  margin-top: -80px;
+  }
+
 /*----------------------------------------------------------------------------------------------------------------------------
-Testimonial
+Key Testimonial (Non Sidebar)
 ----------------------------------------------------------------------------------------------------------------------------*/
 .testimonials .testimonial-item {
   box-sizing: content-box;
@@ -891,32 +904,7 @@ Testimonial
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
-Social Links
-----------------------------------------------------------------------------------------------------------------------------*/
-#header .social-media .social-links a {
-  font-size: 10px;
-  display: inline-block;
-  background: #3c4261;
-  fill: #091330;
-  line-height: 1;
-  padding: 0;
-  margin: 2px;
-  border-radius: 50%;
-  text-align: center;
-  width: 30px;
-  height: 30px;
-  transition: 0.9s;
-}
-
-#header .social-media .social-links a:hover {
-  background: #3c4261;
-  fill: #fff;
-  text-decoration: none;
-}
-
-
-/*----------------------------------------------------------------------------------------------------------------------------
-Contact Synopsis
+Contact Synopsis (Sidebar)
 ----------------------------------------------------------------------------------------------------------------------------*/
 .contact {
   padding-bottom: 130px;
@@ -1027,6 +1015,31 @@ Contact Synopsis
   background: #3c4261;
 }
 
+.contact-icons {
+  fill: #1379a8;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 40px;
+  background-color: #f5f8fd; 
+  border-radius: 50%;
+}
+
+.contact-icons:hover {
+  fill: #fff;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 40px;
+  background-color: #1379a8; 
+  border-radius: 50%;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+
+.icons-text {
+  display: inline-block;
+}
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
@@ -1044,11 +1057,8 @@ Contact Synopsis
     transform: rotate(360deg);
   }
 }
-
-/* OtherPage Style ======================================================================================================= */
-
 /*----------------------------------------------------------------------------------------------------------------------------
-Breadcrumbs
+Sub-Page-Breadcrumbs
 ----------------------------------------------------------------------------------------------------------------------------*/
 .breadcrumbs {
   padding: 30px 0;
@@ -1087,7 +1097,7 @@ Breadcrumbs
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
-Page Content
+Content-Page-Element
 ----------------------------------------------------------------------------------------------------------------------------*/
 .portfolio-details {
   padding-top: 0;
@@ -1161,7 +1171,7 @@ Page Content
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
-# Footer Tag
+Footer Section
 ----------------------------------------------------------------------------------------------------------------------------*/
 #footer {
   padding: 1.5em;
