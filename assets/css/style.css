@@ -491,15 +491,16 @@ Work Experience (Sidebar)
 
 .experience .count-box p {
   padding: 10px 0 0 0;
-  margin-left: 80px;
   font-family: "Raleway", sans-serif;
   font-size: 16px;
   font-weight: 600;
   color: #1379a8;
+  margin-left: 50px;
 }
 
 .big-icon-box {
   margin-bottom: -80px;
+  margin-left: -20px;
 }
 
 .big-icons {
@@ -520,7 +521,7 @@ Academic Qualifications (Resume)
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
-  margin-bottom: 10px;
+  margin-bottom: 4px;
 }
 
 .resume .resume-title{
@@ -545,18 +546,18 @@ Academic Qualifications (Resume)
 Professional Certificates (Resume)
 ----------------------------------------------------------------------------------------------------------------------------*/
 .resume .professional-certificates h5{
-  margin-left: 0px;
-  margin-top: -20px;
+  margin-left: -8px;
   font-size: 16px;
+  margin-top: 4px;
 }
 
 .resume .professional-certificates ul a{
   padding: 4px 14px 4px 4px;
   color: #1379a8;
-  margin-left: -28px;
   background-color: #e4edf9;
   border-radius: 50px;
   font-size: 14px;
+  margin-left: -30px;
 }
 
 .resume .professional-certificates ul a:hover {
@@ -597,7 +598,7 @@ Employment Chronology (Resume)
   font-weight: 400;
   font-family: "Poppins", sans-serif;
   color: #1379a8;
-  margin-bottom: 8px;
+  margin-bottom: 4px;
 }
 
 .resume .employment-chronology h5 {
