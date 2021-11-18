@@ -374,7 +374,7 @@ section {
 }
 
 .section-title h2 {
-  font-size: 28px;
+  font-size: 26px;
   font-weight: 600;
   margin-bottom: 10px;
   padding-bottom: 10px;
@@ -531,12 +531,12 @@ Academic Qualifications (Resume)
   text-align: center;
 }
 
-.resume .academic-education h5{
+.resume .academic-qualifications h5{
   margin-left: 0px;
   padding-top: 2px;
 }
 
-.resume .academic-education ul{
+.resume .academic-qualifications ul{
   color: #1379a8;
   margin-left: -20px;
 }
@@ -544,20 +544,23 @@ Academic Qualifications (Resume)
 /*----------------------------------------------------------------------------------------------------------------------------
 Professional Certificates (Resume)
 ----------------------------------------------------------------------------------------------------------------------------*/
-.resume .training-certificate h5{
+.resume .professional-certificates h5{
   margin-left: 0px;
   margin-top: -20px;
   font-size: 16px;
 }
 
-.resume .training-certificate ul a{
-  padding: 4px;
+.resume .professional-certificates ul a{
+  padding: 4px 14px 4px 4px;
   color: #1379a8;
   margin-left: -28px;
+  background-color: #e4edf9;
+  border-radius: 50px;
+  font-size: 14px;
 }
 
-.resume .training-certificate ul a:hover {
-  color: #1379a8;
+.resume .professional-certificates ul a:hover {
+  color: #173b6c;
   background-color: #e4edf9;
   padding: 4px 14px 4px 4px;
   border-radius: 50px;
@@ -572,23 +575,23 @@ Professional Certificates (Resume)
 /*----------------------------------------------------------------------------------------------------------------------------
 Employment Chronology (Resume)
 --------------------------------------------------------------------------------------------------------------------------- */
-.resume .employment-history {
+.resume .employment-chronology {
   padding: 0 0 30px 20px;
   border-left: 2px solid #1379a8;
   position: relative;
 }
 
-.resume .employment-history h3 {
+.resume .employment-chronology h3 {
   line-height: 28px;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 500;
   font-family: "Poppins", sans-serif;
   color: #050d18;
   margin-bottom: 10px;
   margin-top: 8px;
 }
 
-.resume .employment-history h4 {
+.resume .employment-chronology h4 {
   line-height: 20px;
   font-size: 16px;
   font-weight: 400;
@@ -597,22 +600,22 @@ Employment Chronology (Resume)
   margin-bottom: 8px;
 }
 
-.resume .employment-history h5 {
+.resume .employment-chronology h5 {
   font-size: 16px;
   background: #e4edf9;
   padding: 4px 14px;
   display: inline-block;
   font-weight: 600;
-  margin-bottom: -10px;
-  border-radius: 20px;
+  margin-bottom: -14px;
+  border-radius: 4px;
   color: #1379a8;
 }
 
-.resume .employment-history:last-child {
+.resume .employment-chronology:last-child {
   padding-bottom: 0;
 }
 
-.resume .employment-history::before {
+.resume .employment-chronology::before {
   content: "";
   position: absolute;
   width: 16px;
