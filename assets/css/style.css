@@ -37,10 +37,10 @@ Back-To-Top
   display: none;
   width: 40px;
   height: 40px;
-  border-radius: 50px;
-  right: 15px;
-  bottom: 15px;
-  background: #1379a8;
+  border-radius: 4px;
+  right: 14px;
+  bottom: 14px;
+  background: rgba(0, 96, 134, 0.75);
   color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
@@ -266,7 +266,13 @@ Navigation Menu (Mobile)
 
 #burger-menu {
   width: 36px;
-  fill: #3c4261;
+  fill: lightgray;
+  background: rgba(0, 96, 134, 0.75);
+  padding: 2px 2px;
+  display: inline-block;
+  margin-bottom: -10px;
+  border-radius: 4px;
+  
 }
 
 #burger-menu:hover {
@@ -276,7 +282,7 @@ Navigation Menu (Mobile)
 }
 
 .mobile-nav-toggle i {
-  color: #ffffff;
+  color: #fff;
 }
 
 .mobile-nav-active {
