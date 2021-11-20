@@ -611,13 +611,13 @@ Employment Chronology (Resume)
 }
 
 .resume .employment-chronology h5 {
-  font-size: 16px;
+  font-size: 14px;
   background: #e4edf9;
   padding: 4px 14px;
   display: inline-block;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: -14px;
-  border-radius: 4px;
+  border-radius: 4px 40px 40px 4px;
   color: #1379a8;
 }
 
@@ -632,7 +632,7 @@ Employment Chronology (Resume)
   height: 16px;
   border-radius: 50px;
   left: -9px;
-  top: 0;
+  top: 6px;
   background: #e4edf9;
   border: 2px solid #1379a8;
 }
