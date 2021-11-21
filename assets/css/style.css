@@ -40,8 +40,8 @@ Back-To-Top
   border-radius: 50px;
   right: 14px;
   bottom: 14px;
-  background: rgba(0, 132, 184, 0.75);
-  color: #fff;
+  background: rgba(9, 19, 48, 0.70);
+  color: lightgray;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
   font-size: 26px;
@@ -51,7 +51,7 @@ Back-To-Top
 
 .back-to-top:hover {
   color: #fff;
-  background: rgba(0, 132, 184, 0.75);
+  background: rgba(9, 19, 48, 0.70);
   transition: background 0.2s ease-in-out;
 }
 
@@ -269,7 +269,7 @@ Navigation Menu (Mobile)
 #burger-menu {
   width: 36px;
   fill: lightgray;
-  background: rgba(0, 132, 184, 0.75);
+  background: rgba(9, 19, 48, 0.60);
   padding: 2px 2px;
   display: inline-block;
   margin-bottom: -10px;
