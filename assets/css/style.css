@@ -27,7 +27,6 @@ h6 {
 p {
   text-align: justify;
   text-justify: distribute-all-lines;
-  font-size: 14px;
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
@@ -256,34 +255,6 @@ Navigation Menu (Mobile)
   text-align: right; 
 }
 
-.page-icons {
-  width: 30px;
-  height: 30px;
-  fill: #1379a8;
-}
-
-.page-icons:hover {
-  fill: #082d58;
-  transition: all 0.2s;
-}
-
-#burger-menu {
-  width: 36px;
-  fill: lightgray;
-  background: rgba(9, 19, 48, 0.60);
-  padding: 2px 2px;
-  display: inline-block;
-  margin-bottom: -10px;
-  border-radius: 4px;
-  
-}
-
-#burger-menu:hover {
-  width: 36px;
-  fill: lightgray;
-  transition: all 0.2s;
-}
-
 .mobile-nav-toggle i {
   color: #fff;
 }
@@ -298,6 +269,41 @@ Navigation Menu (Mobile)
 
 .mobile-nav-active .mobile-nav-toggle i {
   color: #fff;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------
+Hamburger Menu (Mobile)
+----------------------------------------------------------------------------------------------------------------------------*/
+.burger-bar-1, .burger-bar-2, .burger-bar-3 {
+  width: 20px;
+  height: 2px;
+  background: lightgray;
+  margin: 4px;
+  transition: 0.4s;
+  border-radius: 10px;
+  
+}
+
+.box-background{
+  background-color: rgba(9, 19, 48, 0.70);
+  height: 36px;
+  width: 36px;
+  border-radius: 4px;
+  padding: 6px 3px;
+}
+
+.change .burger-bar-1{
+  transform: rotate(-45deg) translate(-3px, 3px) ;
+  transform: rotate(-45deg) translate(-5.5px, 5.5px) ;
+}
+
+.change .burger-bar-2 {
+  opacity: 0;
+}
+
+.change .burger-bar-3 {
+  transform: rotate(45deg) translate(-5.5px, -5.5px) ;
+  transform: rotate(45deg) translate(-3px, -3px) ;
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
@@ -1071,6 +1077,21 @@ Contact Synopsis (Sidebar)
     transform: rotate(360deg);
   }
 }
+
+/*----------------------------------------------------------------------------------------------------------------------------
+Sub-Page-Icons (Like & Comment
+----------------------------------------------------------------------------------------------------------------------------*/
+.page-icons {
+  width: 30px;
+  height: 30px;
+  fill: #1379a8;
+}
+
+.page-icons:hover {
+  fill: #082d58;
+  transition: all 0.2s;
+}
+
 /*----------------------------------------------------------------------------------------------------------------------------
 Sub-Page-Breadcrumbs
 ----------------------------------------------------------------------------------------------------------------------------*/
