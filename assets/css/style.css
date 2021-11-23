@@ -1139,8 +1139,8 @@ Sub-Page-Element
 }
 
 #details-title h2 {
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 500;
   margin-top: -20px;
   padding: 4px 20px 4px 20px;
   position: fixed;
@@ -1169,24 +1169,6 @@ Footer Section
   width: 240px;
   z-index: 9999;
   background: #091330;
-}
-
-#footer .copyright {
-  text-align: center;
-}
-
-#footer .copyright a {
-  padding-top: 6px;
-  text-align: center;
-  font-size: 14px;
-  color: #3c4261;
-}
-
-#footer .copyright a:hover {
-  padding-top: 6px;
-  text-align: center;
-  font-size: 14px;
-  color: #666d8f;
 }
 
 @media (max-width: 1199px) {
