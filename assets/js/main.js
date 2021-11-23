@@ -2,7 +2,7 @@
 !(function ($) {
   "use strict";
 
-  // Hero typed
+  // Animated typed texts on top the Hero background surface
   if ($('.typed').length) {
     var typed_strings = $(".typed").data('typed-items');
     typed_strings = typed_strings.split(',')
@@ -80,7 +80,7 @@
     });
   });
 
-  // Back to top
+  // Back to top button scroll to the top of the website
   $(window).scroll(function () {
     if ($(this).scrollTop() > 100) {
       $('.back-to-top').fadeIn('slow');
@@ -96,7 +96,7 @@
     return false;
   });
 
-  // Back to logo
+  // Back to logo scroll to the top of the website
   $(window).scroll(function () {
     if ($(this).scrollTop() > 100) {
       $('.logo').fadeIn('slow');
@@ -177,3 +177,15 @@
 function myFunction(x) {
   x.classList.toggle("change");
 }
+
+// const menuBtn = document.querySelector('.menu-btn');
+// let menuOpen = false;
+// menuBtn .addEventListener('click', () => {
+//   if(!menuOpen) {
+//      menuBtn.classList.add('‘open’');
+//      menuOpen = true;
+// }  else {
+//   menuBtn.classList.remove('‘open’');
+//   menuOpen = false;
+// }
+// });
