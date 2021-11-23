@@ -41,18 +41,38 @@ Back-To-Top
   right: 14px;
   bottom: 14px;
   background: rgba(9, 19, 48, 0.70);
-  color: lightgray;
-  transition: display 0.5s ease-in-out;
   z-index: 99999;
-  font-size: 26px;
-  margin-left: 10px;
-  text-align: center;
+  padding: 2px 10px;
 }
 
 .back-to-top:hover {
-  color: #fff;
-  background: rgba(9, 19, 48, 0.70);
+  background: #1379a8;
   transition: background 0.2s ease-in-out;
+}
+
+.bar-to-top-1 {
+  width: 2px;
+  height: 20px;
+  background: lightcyan;
+  border-radius: 10px;
+  margin-left: 8.5px;
+  margin-top: 8px;
+}
+
+.bar-to-top-2 {
+  width: 10px;
+  height: 2px;
+  background: lightcyan;
+  border-radius: 10px;
+  transform: rotate(45deg) translate(-6px, -18px)
+}
+
+.bar-to-top-3 {
+  width: 10px;
+  height: 2px;
+  background: lightcyan;
+  border-radius: 10px;
+  transform: rotate(-45deg) translate(14px, -12px)
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
@@ -274,22 +294,21 @@ Navigation Menu (Mobile)
 /*----------------------------------------------------------------------------------------------------------------------------
 Hamburger Menu (Mobile)
 ----------------------------------------------------------------------------------------------------------------------------*/
-.burger-bar-1, .burger-bar-2, .burger-bar-3 {
-  width: 20px;
-  height: 2px;
-  background: lightgray;
-  margin: 4px;
-  transition: 0.4s;
-  border-radius: 10px;
-  
-}
-
 .box-background{
   background-color: rgba(9, 19, 48, 0.70);
   height: 36px;
   width: 36px;
   border-radius: 4px;
-  padding: 6px 3px;
+  padding: 6px 3.5px;
+}
+
+.burger-bar-1, .burger-bar-2, .burger-bar-3 {
+  width: 20px;
+  height: 2px;
+  background: lightcyan;
+  margin: 4px;
+  transition: 0.4s;
+  border-radius: 10px;
 }
 
 .change .burger-bar-1{
@@ -1079,7 +1098,7 @@ Contact Synopsis (Sidebar)
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
-Sub-Page-Icons (Like & Comment
+Sub-Page-Icons (Like & Comment)
 ----------------------------------------------------------------------------------------------------------------------------*/
 .page-icons {
   width: 30px;
@@ -1090,6 +1109,22 @@ Sub-Page-Icons (Like & Comment
 .page-icons:hover {
   fill: #082d58;
   transition: all 0.2s;
+}
+
+.page-icon #arrow-back-next {
+  width: 30px;
+  height: 30px;
+  fill: #1379a8;
+  border-radius: 4px;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+.page-icon #arrow-back-next:hover {
+  fill: #fff ;
+  transition: all 0.6s ease-in-out;
+  background-color: #1379a8;  
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
@@ -1132,7 +1167,7 @@ Sub-Page-Breadcrumbs
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
-Content-Page-Element
+Sub-Page-Element
 ----------------------------------------------------------------------------------------------------------------------------*/
 .portfolio-details {
   padding-top: 0;
@@ -1177,26 +1212,6 @@ Content-Page-Element
   padding: 4px 10px 4px 10px;
   position: relative;
   color: #1379a8;
-}
-
-.page-icon #arrow-back-next {
-  width: 30px;
-  height: 30px;
-  fill: #1379a8;
-  border-radius: 4px;
-  background: #fff;
-  border-radius: 4px;
-  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
-}
-
-.page-icon #arrow-back-next:hover {
-  fill: #fff ;
-  transition: all 0.6s ease-in-out;
-  background-color: #1379a8;  
-}
-
-.portfolio-details .portfolio-description p {
-  padding: 0;
 }
 
 @media (max-width: 768px) {
