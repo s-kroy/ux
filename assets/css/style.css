@@ -41,19 +41,40 @@ Back-To-Top
   right: 14px;
   bottom: 14px;
   background: rgba(9, 19, 48, 0.70);
-  color: lightgray;
-  transition: display 0.5s ease-in-out;
   z-index: 99999;
-  font-size: 26px;
-  margin-left: 10px;
-  text-align: center;
+  padding: 3px 10px;
 }
-
 .back-to-top:hover {
-  color: #fff;
-  background: rgba(9, 19, 48, 0.70);
+  background: #1379a8;
   transition: background 0.2s ease-in-out;
 }
+
+.bar-to-top-1 {
+  width: 2px;
+  height: 20px;
+  background: lightcyan;
+  border-radius: 10px;
+  margin-left: 8.5px;
+  margin-top: 8px;
+}
+
+.bar-to-top-2 {
+  width: 10px;
+  height: 2px;
+  background: lightcyan;
+  border-radius: 10px;
+  transform: rotate(45deg) translate(-6px, -18px)
+}
+
+.bar-to-top-3 {
+  width: 10px;
+  height: 2px;
+  background: lightcyan;
+  border-radius: 10px;
+  transform: rotate(-45deg) translate(14px, -12.5px)
+}
+
+
 
 /*----------------------------------------------------------------------------------------------------------------------------
 Header Section
@@ -277,11 +298,10 @@ Hamburger Menu (Mobile)
 .burger-bar-1, .burger-bar-2, .burger-bar-3 {
   width: 20px;
   height: 2px;
-  background: lightgray;
+  background: lightcyan;
   margin: 4px;
   transition: 0.4s;
   border-radius: 10px;
-  
 }
 
 .box-background{
