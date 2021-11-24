@@ -27,6 +27,7 @@ h6 {
 p {
   text-align: justify;
   text-justify: distribute-all-lines;
+  font-size: 15px;
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
@@ -777,6 +778,12 @@ Portfolio Widgets (Sidebar)
 .portfolio .portfolio-wrap:hover .portfolio-links {
   opacity: 1;
   bottom: 0;
+}
+
+@media (max-width: 767px) {
+  #portfolio-flters {
+    display: none;
+  }
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
