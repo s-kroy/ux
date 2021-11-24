@@ -1106,66 +1106,6 @@ Contact Synopsis (Sidebar)
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
-Sub-Page-Icons (Like & Comment)
-----------------------------------------------------------------------------------------------------------------------------*/
-.page-icons {
-  width: 30px;
-  height: 30px;
-  fill: #1379a8;
-  border-radius: 4px;
-  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
-}
-
-.page-icons:hover {
-  fill: #fff;
-  transition: all 0.2s;
-  background-color: #1379a8;
-  transition: all 0.6s ease-in-out;
-  border-radius: 4px;
-}
-
-/*----------------------------------------------------------------------------------------------------------------------------
-Sub-Page-Element
-----------------------------------------------------------------------------------------------------------------------------*/
-.portfolio-details {
-  padding-top: 0;
-}
-
-.portfolio-details .portfolio-details-container {
-  position: relative;
-}
-
-.portfolio-details .portfolio-info {
-  padding: 4px;
-  position: absolute;
-  left: 0;
-  bottom: 0px;
-  background: #fff;
-  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
-  z-index: 2;
-  border-radius: 4px;
-}
-
-#details-title h2 {
-  font-size: 18px;
-  font-weight: 500;
-  margin-top: -20px;
-  padding: 4px 20px 4px 20px;
-  position: fixed;
-  color: #1379a8;
-  z-index: 99999;
-  background-color: #e4edf9;
-  border-radius: 50px;
-  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
-}
-
-@media (max-width: 768px) {
-  .portfolio-details .portfolio-description h2 {
-    width: 100%;
-  }
-}
-
-/*----------------------------------------------------------------------------------------------------------------------------
 Footer Section
 ----------------------------------------------------------------------------------------------------------------------------*/
 #footer {
@@ -1202,5 +1142,28 @@ Footer Section
     position: static;
     width: auto;
     padding-right: 20px 15px;
+  }
+}
+/*----------------------------------------------------------------------------------------------------------------------------
+Info-Page-Element
+----------------------------------------------------------------------------------------------------------------------------*/
+.info-details-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-details-title h2 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #1379a8;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .portfolio-details .portfolio-description h2 {
+    width: 100%;
   }
 }
