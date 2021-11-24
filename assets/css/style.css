@@ -27,7 +27,7 @@ h6 {
 p {
   text-align: justify;
   text-justify: distribute-all-lines;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
@@ -588,25 +588,26 @@ Professional Certificates (Resume)
 }
 
 .resume .professional-certificates ul a{
-  padding: 4px 14px 4px 4px;
+  padding: 2px 10px 2px 2px;
   color: #1379a8;
   background-color: #e4edf9;
-  border-radius: 50px;
+  border-radius: 100px;
   font-size: 14px;
   margin-left: -30px;
 }
 
 .resume .professional-certificates ul a:hover {
-  color: #173b6c;
-  background-color: #e4edf9;
-  padding: 4px 14px 4px 4px;
-  border-radius: 50px;
+  color: #1379a8;
+  background-color: rgb(199, 219, 255);
+  padding: 2px 10px 2px 2px;
+  border-radius: 100px;
   }
 
 .resume .certificate-icon {
   fill: #1379a8;
-  width: 30px;
-  height: 30px;
+  width: 22px;
+  height: 22px;
+  margin-bottom: 4px;
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
@@ -1176,6 +1177,24 @@ Footer Section
   width: 240px;
   z-index: 9999;
   background: #091330;
+}
+
+#footer .copyright {
+  text-align: center;
+}
+#footer .copyright a {
+  padding-top: 6px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: #3c4261;
+}
+#footer .copyright a:hover {
+  padding-top: 6px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: #666d8f;
 }
 
 @media (max-width: 1199px) {
