@@ -41,7 +41,7 @@ Back-To-Top
   border-radius: 50px;
   right: 14px;
   bottom: 14px;
-  background: rgba(9, 19, 48, 0.70);
+  background: rgba(9, 19, 48, 0.50);
   z-index: 99999;
   padding: 2px 10px;
 }
@@ -294,7 +294,7 @@ Navigation Menu (Mobile)
 Hamburger Menu (Mobile)
 ----------------------------------------------------------------------------------------------------------------------------*/
 .box-background{
-  background-color: rgba(9, 19, 48, 0.70);
+  background-color: rgba(9, 19, 48, 0.50);
   height: 36px;
   width: 36px;
   border-radius: 4px;
@@ -351,8 +351,8 @@ Hero Image
 
 #hero h2 {
   margin: 0;
-  font-size: 30px;
-  font-weight: 400;
+  font-size: 34px;
+  font-weight: 500;
   line-height: 50px;
   color: #fff;
 }
