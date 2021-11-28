@@ -1,5 +1,5 @@
 /*----------------------------------------------------------------------------------------------------------------------------
-General styling
+General Styling
 ----------------------------------------------------------------------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
@@ -28,52 +28,6 @@ p {
   text-align: justify;
   text-justify: distribute-all-lines;
   font-size: 14px;
-}
-
-/*----------------------------------------------------------------------------------------------------------------------------
-Back-To-Top
-----------------------------------------------------------------------------------------------------------------------------*/
-.back-to-top {
-  position: fixed;
-  display: none;
-  width: 40px;
-  height: 40px;
-  border-radius: 50px;
-  right: 14px;
-  bottom: 14px;
-  background: rgba(9, 19, 48, 0.50);
-  z-index: 99999;
-  padding: 2px 10px;
-}
-
-.back-to-top:hover {
-  background: rgba(19, 121, 168);
-  transition: background 0.2s ease-in-out;
-}
-
-.bar-to-top-1 {
-  width: 2px;
-  height: 20px;
-  background: lightcyan;
-  border-radius: 10px;
-  margin-left: 9px;
-  margin-top: 8px;
-}
-
-.bar-to-top-2 {
-  width: 10px;
-  height: 2px;
-  background: lightcyan;
-  border-radius: 10px;
-  transform: rotate(45deg) translate(-6px, -18px)
-}
-
-.bar-to-top-3 {
-  width: 10px;
-  height: 2px;
-  background: lightcyan;
-  border-radius: 10px;
-  transform: rotate(-45deg) translate(14px, -12px)
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
@@ -162,7 +116,7 @@ Social Icons
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
-Leftside Baricon
+Sidebar Icons
 ----------------------------------------------------------------------------------------------------------------------------*/
 .navbar-icons {
   fill: #6f7180;
@@ -262,7 +216,7 @@ Navigation Menu (Desktop)
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
-Navigation Menu (Mobile)
+Hamburger Menu (Mobile)
 ----------------------------------------------------------------------------------------------------------------------------*/
 .mobile-nav-toggle {
   position: fixed;
@@ -295,29 +249,51 @@ Navigation Menu (Mobile)
   color: #fff;
 }
 
-/*----------------------------------------------------------------------------------------------------------------------------
-Hamburger Menu (Mobile)
-----------------------------------------------------------------------------------------------------------------------------*/
-.box-background{
+.menubox-background{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: rgba(9, 19, 48, 0.50);
   height: 36px;
   width: 36px;
   border-radius: 4px;
-  padding: 6px 3.5px;
+  transition: all .5s ease-in-out;
+  cursor: pointer;
 }
 
-.burger-bar-1, .burger-bar-2, .burger-bar-3 {
-  width: 20px;
-  height: 2px;
+.burger-bar-1 {
+  content: '';
+  position: absolute;
   background: lightcyan;
-  margin: 4px;
-  transition: 0.4s;
+  height: 2px;
+  width: 22px;
   border-radius: 10px;
+  transition: all .5s ease-in-out;
+  transform: translateY(-6px);
+}
+
+.burger-bar-2 {
+  background: lightcyan;
+  height: 2px;
+  width: 22px;
+  border-radius: 10px;
+  transition: all 0.5s ease-in-out;
+}
+
+.burger-bar-3 {
+  content: '';
+  position: absolute;
+  background: lightcyan;
+  height: 2px;
+  width: 22px;
+  border-radius: 10px;
+  transition: all .5s ease-in-out;
+  transform: translateY(6px);
 }
 
 .change .burger-bar-1{
-  transform: rotate(-45deg) translate(-3px, 3px) ;
-  transform: rotate(-45deg) translate(-5.5px, 5.5px) ;
+  transform: rotate(-45deg) translateY(0px);
 }
 
 .change .burger-bar-2 {
@@ -325,12 +301,11 @@ Hamburger Menu (Mobile)
 }
 
 .change .burger-bar-3 {
-  transform: rotate(45deg) translate(-5.5px, -5.5px) ;
-  transform: rotate(45deg) translate(-3px, -3px) ;
+  transform: rotate(45deg) translateY(0px);
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
-Hero Image
+Background (Hero) Image
 ----------------------------------------------------------------------------------------------------------------------------*/
 #hero {
   width: 100%;
@@ -441,7 +416,7 @@ section {
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
-Profile Description (Sidebar)
+Profile Description
 ----------------------------------------------------------------------------------------------------------------------------*/
 .profile .content h3 {
   font-size: 22px;
@@ -471,7 +446,7 @@ Profile Description (Sidebar)
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
-Software Expertise (Sidebar)
+Software Expertise
 ----------------------------------------------------------------------------------------------------------------------------*/
 .software .progress {
   height: 50px;
@@ -507,7 +482,7 @@ Software Expertise (Sidebar)
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
-Career Experience (Sidebar)
+Career Experience
 ----------------------------------------------------------------------------------------------------------------------------*/
 .career {
   padding-bottom: 30px;
@@ -664,7 +639,7 @@ Employment History (Resume Repositary)
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
-Work Recognition (Non Sidebar)
+Award Enrichment
 ----------------------------------------------------------------------------------------------------------------------------*/
 .award-enrichment ul{
   margin-left: -20px;
@@ -673,7 +648,7 @@ Work Recognition (Non Sidebar)
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
-Featured Portfolio (Sidebar)
+Featured Portfolio
 ----------------------------------------------------------------------------------------------------------------------------*/
 .small-icons {
   fill: #fff;
@@ -787,7 +762,7 @@ Featured Portfolio (Sidebar)
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
-Design Proficiency (Sidebar)
+Design Proficiency
 ----------------------------------------------------------------------------------------------------------------------------*/
 .proficiency .icon-box {
   margin-bottom: 20px;
@@ -848,7 +823,7 @@ Design Proficiency (Sidebar)
   }
 
 /*----------------------------------------------------------------------------------------------------------------------------
-Short Testimonials (Non Sidebar)
+Short Testimonials
 ----------------------------------------------------------------------------------------------------------------------------*/
 .testimonials .testimonial-item {
   box-sizing: content-box;
@@ -950,7 +925,7 @@ Short Testimonials (Non Sidebar)
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
-Contact Summary (Sidebar)
+Contact Summary
 ----------------------------------------------------------------------------------------------------------------------------*/
 .contact {
   padding-bottom: 130px;
@@ -1143,8 +1118,45 @@ Footer Section
     padding-right: 20px 15px;
   }
 }
+
 /*----------------------------------------------------------------------------------------------------------------------------
-Info-Page-Element
+Back-To-Top
+----------------------------------------------------------------------------------------------------------------------------*/
+.back-to-top {
+  position: fixed;
+  display: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  right: 14px;
+  bottom: 14px;
+  background: rgba(9, 19, 48, 0.50);
+  z-index: 99999;
+}
+
+.back-to-top:hover {
+  background: rgba(19, 121, 168);
+  transition: background 0.2s ease-in-out;
+}
+
+.line-of-arrow-1 {
+  width: 16px;
+  height: 2px;
+  background: lightcyan;
+  border-radius: 10px;
+  transform: rotate(45deg) translate(23.5px, 0px);
+}
+
+.line-of-arrow-2 {
+  width: 16px;
+  height: 2px;
+  background: lightcyan;
+  border-radius: 10px;
+  transform: rotate(-45deg) translate(-6px, 14.5px);
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------
+Info-Page-Styling
 ----------------------------------------------------------------------------------------------------------------------------*/
 .info-details-container {
   height: 100%;
@@ -1185,13 +1197,29 @@ Info-Page-Element
 .page-icon-svg {
   fill: #1379a8;
   width: 40px;
+  background: #e4edf9;
+  border-radius: 6px;
+}
+
+.page-icon-svg:hover {
+  fill: #ffffff;
+  width: 40px;
+  background: #1379a8;
+  border-radius: 6px;
+  transition: all 0.3s ease-in-out;
 }
 
 .page-icon-box {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
 .page-button p {
   text-align: center;
+  color: #1379a8;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .catecategory-title {

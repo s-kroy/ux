@@ -160,9 +160,22 @@
 })(jQuery);
 
 
-//Burger
+// Burger
 function myFunction(x) {
   x.classList.toggle("change");
 }
 
 
+// Ham Burger Menu (on click nav-icons or nav-links back to initial stage)
+const menuBtn = document.querySelector('box-background');
+let menuOpen = false;
+menuBtn.addEventListener('click', () => {
+  if (!menuOpen) {
+    menuBtn.classList.add('open');
+    menuOpen = true;
+  } else {
+    menuBtn.classList.remove('open');
+    menuOpen = false;
+  }
+}
+);
