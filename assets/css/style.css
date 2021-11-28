@@ -1155,7 +1155,7 @@ Info-Page-Element
 }
 
 .info-details-title h2 {
-  font-size: 26px;
+  font-size: 20px;
   background: linear-gradient(to right,#095fab 10%, #25abe8 50%, #57d75b 60%);
   background-clip: border-box;
   background-size: 200% auto;
@@ -1164,7 +1164,6 @@ Info-Page-Element
   -webkit-text-fill-color: transparent;
   animation: textclip 2.5s linear infinite;
   display: inline-block;
-  justify-content: center;
   align-items: center;
   height: 100%;
   width: 100%;
@@ -1189,6 +1188,13 @@ Info-Page-Element
 }
 
 .page-icon-box {
+  display: flex;
+}
+.page-button p {
+  text-align: center;
+}
+
+.catecategory-title {
   display: flex;
   justify-content: space-between;
 }
