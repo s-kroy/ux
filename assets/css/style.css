@@ -47,7 +47,7 @@ Back-To-Top
 }
 
 .back-to-top:hover {
-  background: #1379a8;
+  background: rgba(19, 121, 168);
   transition: background 0.2s ease-in-out;
 }
 
@@ -111,8 +111,8 @@ Website Logo
 ----------------------------------------------------------------------------------------------------------------------------*/
 #header .logo {
   fill: #fff;
-  width: 100px;
-  height: 100px;
+  width: 115px;
+  height: 115px;
   position: relative;
   margin: 50px auto auto;
   display: block;
@@ -123,7 +123,8 @@ Website Logo
 
 #header .logo:hover {
   fill: #3c4261;
-  width: 100px;
+  width: 115px;
+  height: 115px;
   position: relative;
   margin: 50px auto auto;
   display: block;
@@ -148,10 +149,10 @@ Social Icons
   padding: 0;
   margin: 2px;
   border-radius: 50%;
-  text-align: center;
   width: 30px;
   height: 30px;
   transition: 0.9s;
+  margin-top: 140px;
 }
 
 #header .social-media .social-links a:hover {
@@ -161,7 +162,7 @@ Social Icons
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
-Navigation Icons
+Leftside Baricon
 ----------------------------------------------------------------------------------------------------------------------------*/
 .navbar-icons {
   fill: #6f7180;
@@ -181,6 +182,10 @@ Navigation Icons
   margin: 12px;
   display: block;
   position: relative;
+}
+
+.sidebar-link ul {
+  margin-top: 20px;
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
@@ -438,7 +443,7 @@ section {
 /*----------------------------------------------------------------------------------------------------------------------------
 Profile Description (Sidebar)
 ----------------------------------------------------------------------------------------------------------------------------*/
-.about .content h3 {
+.profile .content h3 {
   font-size: 22px;
   font-weight: 600;
   text-align: center;
@@ -446,35 +451,35 @@ Profile Description (Sidebar)
   color: #1379a8;
 }
 
-.about .content ul {
+.profile .content ul {
   list-style: none;
   padding: 0;
 }
 
-.about .content ul li {
+.profile .content ul li {
   padding-bottom: 10px;
 }
 
-.about .content ul i {
+.profile .content ul i {
   font-size: 20px;
   padding-right: 2px;
   color: #1379a8;
 }
 
-.about .content p:last-child {
+.profile .content p:last-child {
   margin-bottom: 0;
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
 Software Expertise (Sidebar)
 ----------------------------------------------------------------------------------------------------------------------------*/
-.skills .progress {
+.software .progress {
   height: 50px;
   display: block;
   background: none;
 }
 
-.skills .progress .skill {
+.software .progress .skill {
   padding: 0;
   margin: 0 0 6px 0;
   text-transform: none;
@@ -485,16 +490,16 @@ Software Expertise (Sidebar)
   color: #050d18;
 }
 
-.skills .progress .skill .val {
+.software .progress .skill .val {
   float: right;
   font-style: normal;
 }
 
-.skills .progress-bar-wrap {
+.software .progress-bar-wrap {
   background: #a6d1e7;
 }
 
-.skills .progress-bar {
+.software .progress-bar {
   width: 1px;
   height: 8px;
   transition: 0.9s;
@@ -504,16 +509,16 @@ Software Expertise (Sidebar)
 /*----------------------------------------------------------------------------------------------------------------------------
 Career Experience (Sidebar)
 ----------------------------------------------------------------------------------------------------------------------------*/
-.experience {
+.career {
   padding-bottom: 30px;
 }
 
-.experience .count-box {
+.career .count-box {
   padding: 30px;
   width: 100%;
 }
 
-.experience .count-box span {
+.career .count-box span {
   font-size: 40px;
   line-height: 40px;
   display: block;
@@ -522,7 +527,7 @@ Career Experience (Sidebar)
   margin-left: 80px;
 }
 
-.experience .count-box p {
+.career .count-box p {
   padding: 10px 0 0 0;
   font-family: "Raleway", sans-serif;
   font-size: 16px;
@@ -541,16 +546,11 @@ Career Experience (Sidebar)
   width: 60px;
 }
 
-.big-icon-text {
-  display: inline-block;
-}
-
 /*----------------------------------------------------------------------------------------------------------------------------
 Academic Education (Resume Repositary)
 ----------------------------------------------------------------------------------------------------------------------------*/
 .resume h5 {
   font-size: 20px;
-  background: #ffffff;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -565,12 +565,12 @@ Academic Education (Resume Repositary)
   text-align: center;
 }
 
-.resume .qualifications h5{
+.resume .education h5{
   margin-left: -10px;
   padding-top: 2px;
 }
 
-.resume .qualifications ul{
+.resume .education ul{
   color: #1379a8;
   margin-left: -35px;
   font-size: 14px;
@@ -579,13 +579,13 @@ Academic Education (Resume Repositary)
 /*----------------------------------------------------------------------------------------------------------------------------
 Course Certification (Resume Repositary)
 ----------------------------------------------------------------------------------------------------------------------------*/
-.resume .certifications h5{
+.resume .certification h5{
   margin-left: -8px;
   font-size: 16px;
   margin-top: 4px;
 }
 
-.resume .certifications ul a{
+.resume .certification ul a{
   padding: 2px 10px 2px 2px;
   color: #1379a8;
   background-color: #e4edf9;
@@ -594,7 +594,7 @@ Course Certification (Resume Repositary)
   margin-left: -30px;
 }
 
-.resume .certifications ul a:hover {
+.resume .certification ul a:hover {
   color: #1379a8;
   background-color: rgb(199, 219, 255);
   padding: 2px 10px 2px 2px;
@@ -611,13 +611,13 @@ Course Certification (Resume Repositary)
 /*----------------------------------------------------------------------------------------------------------------------------
 Employment History (Resume Repositary)
 --------------------------------------------------------------------------------------------------------------------------- */
-.resume .employments {
+.resume .employment {
   padding: 0 0 30px 20px;
   border-left: 2px solid #1379a8;
   position: relative;
 }
 
-.resume .employments h3 {
+.resume .employment h3 {
   line-height: 28px;
   font-size: 18px;
   font-weight: 500;
@@ -627,7 +627,7 @@ Employment History (Resume Repositary)
   margin-top: 8px;
 }
 
-.resume .employments h4 {
+.resume .employment h4 {
   line-height: 20px;
   font-size: 16px;
   font-weight: 400;
@@ -636,7 +636,7 @@ Employment History (Resume Repositary)
   margin-bottom: 4px;
 }
 
-.resume .employments h5 {
+.resume .employment h5 {
   font-size: 14px;
   background: #e4edf9;
   padding: 4px 14px;
@@ -647,11 +647,11 @@ Employment History (Resume Repositary)
   color: #1379a8;
 }
 
-.resume .employments:last-child {
+.resume .employment:last-child {
   padding-bottom: 0;
 }
 
-.resume .employments::before {
+.resume .employment::before {
   content: "";
   position: absolute;
   width: 16px;
@@ -666,9 +666,10 @@ Employment History (Resume Repositary)
 /*----------------------------------------------------------------------------------------------------------------------------
 Work Recognition (Non Sidebar)
 ----------------------------------------------------------------------------------------------------------------------------*/
-.job-appreciation ul{
+.award-enrichment ul{
   margin-left: -20px;
-  margin-right: 4px; 
+  margin-right: 4px;
+  text-justify: distribute-all-lines;
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
@@ -788,11 +789,11 @@ Featured Portfolio (Sidebar)
 /*----------------------------------------------------------------------------------------------------------------------------
 Design Proficiency (Sidebar)
 ----------------------------------------------------------------------------------------------------------------------------*/
-.expertise .icon-box {
+.proficiency .icon-box {
   margin-bottom: 20px;
 }
 
-.expertise .icon {
+.proficiency .icon {
   float: left;
   display: flex;
   align-items: center;
@@ -804,7 +805,7 @@ Design Proficiency (Sidebar)
   transition: 0.5s;
 }
 
-.expertise .title {
+.proficiency .title {
   margin-left: 56px;
   font-weight: 600;
   margin-bottom: 4px;
@@ -812,7 +813,7 @@ Design Proficiency (Sidebar)
   color: #1379a8;
 }
 
-.expertise .description {
+.proficiency .description {
   margin-left: 56px;
   line-height: 20px;
   font-size: 14px;
@@ -1154,14 +1155,40 @@ Info-Page-Element
 }
 
 .info-details-title h2 {
-  font-size: 24px;
-  font-weight: 500;
-  color: #1379a8;
-  text-align: center;
+  font-size: 26px;
+  background: linear-gradient(to right,#095fab 10%, #25abe8 50%, #57d75b 60%);
+  background-clip: border-box;
+  background-size: 200% auto;
+  text-emphasis-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2.5s linear infinite;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
 }
 
 @media (max-width: 768px) {
   .portfolio-details .portfolio-description h2 {
     width: 100%;
   }
+}
+
+.page-icon-svg {
+  fill: #1379a8;
+  width: 40px;
+}
+
+.page-icon-box {
+  display: flex;
+  justify-content: space-between;
 }

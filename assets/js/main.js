@@ -96,20 +96,6 @@
     return false;
   });
 
-  // Back to logo scroll to the top of the website
-  $(window).scroll(function () {
-    if ($(this).scrollTop() > 100) {
-      $('.logo').fadeIn('slow');
-    }
-  });
-
-  $('.logo').click(function () {
-    $('html, body').animate({
-      scrollTop: 0
-    }, 1500, 'easeInOutExpo');
-    return false;
-  });
-
   // jQuery counterUp
   $('[data-toggle="counter-up"]').counterUp({
     delay: 10,
