@@ -1004,7 +1004,6 @@ Contact Summary
   margin: 0 10px -6px 0;
   border: 3px solid #18d26e;
   border-top-color: #eee;
-  -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
 }
 
@@ -1060,14 +1059,6 @@ Contact Summary
 
 .icons-text {
   display: inline-block;
-}
-@-webkit-keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
 }
 
 @keyframes animate-loading {
@@ -1125,34 +1116,30 @@ Back-To-Top
 .back-to-top {
   position: fixed;
   display: none;
-  width: 40px;
-  height: 40px;
-  border-radius: 50px;
   right: 14px;
   bottom: 14px;
   background: rgba(9, 19, 48, 0.50);
   z-index: 99999;
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  transition: all .5s ease-in-out;
+  cursor: pointer;
+  text-align: center;
+  line-height: 46px;
 }
 
 .back-to-top:hover {
   background: rgba(19, 121, 168);
-  transition: background 0.2s ease-in-out;
+  transition: background 0.5s ease-in-out;
 }
 
-.line-of-arrow-1 {
-  width: 16px;
-  height: 2px;
-  background: lightcyan;
-  border-radius: 10px;
-  transform: rotate(45deg) translate(23.5px, 0px);
-}
-
-.line-of-arrow-2 {
-  width: 16px;
-  height: 2px;
-  background: lightcyan;
-  border-radius: 10px;
-  transform: rotate(-45deg) translate(-6px, 14.5px);
+.arrow-up-top {
+  border: solid lightcyan;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 6px;
+  transform: rotate(-135deg);
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
@@ -1166,32 +1153,23 @@ Info-Page-Styling
   justify-content: center;
 }
 
-.info-details-title h2 {
-  font-size: 20px;
-  background: linear-gradient(to right,#095fab 10%, #25abe8 50%, #57d75b 60%);
-  background-clip: border-box;
-  background-size: 200% auto;
-  text-emphasis-color: transparent;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: textclip 2.5s linear infinite;
-  display: inline-block;
-  align-items: center;
+.info-details-title  {
   height: 100%;
   width: 100%;
+  color: #1379a8;
   display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(243, 243, 243);
+  border-radius: 100px;
 }
 
-@keyframes textclip {
-  to {
-    background-position: 200% center;
-  }
-}
-
-@media (max-width: 768px) {
-  .portfolio-details .portfolio-description h2 {
-    width: 100%;
-  }
+.info-details-title h3 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #1379a8;
+  text-align: center;
+  margin-top: 10px;
 }
 
 .page-icon-svg {
@@ -1222,7 +1200,18 @@ Info-Page-Styling
   font-weight: 600;
 }
 
-.catecategory-title {
-  display: flex;
-  justify-content: space-between;
+.arrow-left {
+  border: solid #1379a8;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 6px;
+  transform: rotate(-45deg);
+}
+
+.arrow-right {
+  border: solid #1379a8;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 6px;
+  transform: rotate(135deg);
 }
