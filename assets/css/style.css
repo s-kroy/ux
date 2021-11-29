@@ -116,7 +116,7 @@ Social Icons
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
-Sidebar Icons
+Navigation Icons
 ----------------------------------------------------------------------------------------------------------------------------*/
 .navbar-icons {
   fill: #6f7180;
@@ -1150,22 +1150,22 @@ Info-Page-Styling
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .info-details-title  {
   height: 100%;
   width: 100%;
-  color: #1379a8;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  background-color: rgb(243, 243, 243);
+  justify-content: space-between;
+  background-color: #f5f8fd;
   border-radius: 100px;
+  padding: 0 20px 0 20px;
 }
 
 .info-details-title h3 {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
   color: #1379a8;
   text-align: center;
@@ -1175,7 +1175,7 @@ Info-Page-Styling
 .page-icon-svg {
   fill: #1379a8;
   width: 40px;
-  background: #e4edf9;
+  background: #f5f8fd;
   border-radius: 6px;
 }
 
@@ -1184,7 +1184,8 @@ Info-Page-Styling
   width: 40px;
   background: #1379a8;
   border-radius: 6px;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
 }
 
 .page-icon-box {
@@ -1206,6 +1207,7 @@ Info-Page-Styling
   display: inline-block;
   padding: 6px;
   transform: rotate(-45deg);
+  cursor: pointer;
 }
 
 .arrow-right {
@@ -1214,4 +1216,14 @@ Info-Page-Styling
   display: inline-block;
   padding: 6px;
   transform: rotate(135deg);
+  cursor: pointer;
 }
+
+#section-photo-gallery {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background: #fff;
+  border-radius: 8px;
+  }
+  
