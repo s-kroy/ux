@@ -918,6 +918,19 @@ Short Testimonials
   background-color: #1379a8 !important;
 }
 
+#real-comment p {
+    text-align: justify;
+    text-justify: distribute-all-lines;
+    font-size: 14px;
+}
+
+#demo-comment p {
+  text-align: justify;
+  text-justify: distribute-all-lines;
+  font-size: 14px;
+  color: rgb(196, 196, 196);
+}
+
 @media (max-width: 767px) {
   .testimonials {
     margin: 30px 10px;
