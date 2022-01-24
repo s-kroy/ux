@@ -416,7 +416,7 @@ section {
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
-Profile Description
+Profile Preview
 ----------------------------------------------------------------------------------------------------------------------------*/
 .profile .content h3 {
   font-size: 22px;
@@ -446,7 +446,7 @@ Profile Description
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
-Software Expertise
+Tech Expertise
 ----------------------------------------------------------------------------------------------------------------------------*/
 .software .progress {
   height: 50px;
@@ -482,7 +482,7 @@ Software Expertise
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
-Career Experience
+Job Experience
 ----------------------------------------------------------------------------------------------------------------------------*/
 .career {
   padding-bottom: 30px;
@@ -522,7 +522,7 @@ Career Experience
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
-Academic Education (Resume Repositary)
+Academic Educations (Resume Repositary)
 ----------------------------------------------------------------------------------------------------------------------------*/
 .resume h5 {
   font-size: 20px;
@@ -552,7 +552,7 @@ Academic Education (Resume Repositary)
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
-Course Certification (Resume Repositary)
+Professional Courses (Resume Repositary)
 ----------------------------------------------------------------------------------------------------------------------------*/
 .resume .certification h5{
   margin-left: -8px;
@@ -639,7 +639,7 @@ Employment History (Resume Repositary)
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
-Award Enrichment
+Awards Bucket
 ----------------------------------------------------------------------------------------------------------------------------*/
 .award-enrichment ul{
   margin-left: -20px;
@@ -648,7 +648,7 @@ Award Enrichment
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
-Featured Portfolio
+Portfolio Works
 ----------------------------------------------------------------------------------------------------------------------------*/
 .small-icons {
   fill: #fff;
@@ -762,7 +762,7 @@ Featured Portfolio
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
-Design Proficiency
+Design Widgets
 ----------------------------------------------------------------------------------------------------------------------------*/
 .proficiency .icon-box {
   margin-bottom: 20px;
@@ -823,7 +823,7 @@ Design Proficiency
   }
 
 /*----------------------------------------------------------------------------------------------------------------------------
-Short Testimonials
+Key Testimonial
 ----------------------------------------------------------------------------------------------------------------------------*/
 .testimonials .testimonial-item {
   box-sizing: content-box;
@@ -938,7 +938,7 @@ Short Testimonials
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
-Contact Summary
+Contact Details
 ----------------------------------------------------------------------------------------------------------------------------*/
 .contact {
   padding-bottom: 130px;
@@ -1156,15 +1156,8 @@ Back-To-Top
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
-Info-Page-Styling
+Project-Page-Style
 ----------------------------------------------------------------------------------------------------------------------------*/
-.info-details-container {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
 
 .info-details-title  {
   height: 100%;
@@ -1172,7 +1165,7 @@ Info-Page-Styling
   display: flex;
   align-items: center;
   justify-content: space-between;
-
+  margin-top: -1rem;
   border-radius: 100px;
 }
 
@@ -1182,34 +1175,6 @@ Info-Page-Styling
   color: #1379a8;
   text-align: center;
   margin-top: 10px;
-}
-
-.page-icon-svg {
-  fill: #1379a8;
-  width: 40px;
-  background: #f5f8fd;
-  border-radius: 6px;
-}
-
-.page-icon-svg:hover {
-  fill: #fff;
-  width: 40px;
-  background: #1379a8;
-  border-radius: 6px;
-  transition: all 0.5s ease-in-out;
-  cursor: pointer;
-}
-
-.page-icon-box {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.page-button p {
-  text-align: center;
-  color: #1379a8;
-  font-size: 14px;
 }
 
 .arrow-left {
@@ -1272,15 +1237,121 @@ Info-Page-Styling
   cursor: pointer;
 }
 
+/* ---------------------------------------------------------------------------------------------------------------------------- */
+
 #section-photo-gallery {
   align-items: center;
   display: flex;
   justify-content: center;
   background: #fff;
   border-radius: 8px;
-  }
-  
-  #section-photo-gallery {
   display: flex;
   border: 1px solid lightgray;
+  margin-top: -2rem;
   }
+/* ---------------------------------------------------------------------------------------------------------------------------- */
+
+.info-details-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -2rem;
+}
+
+.icon-svg {
+  fill: #1379a8;
+  width: 40px;
+  background: #f5f8fd;
+  border-radius: 6px;
+}
+
+.icon-svg:hover {
+  fill: #ffffff;
+  width: 40px;
+  background: #1379a8;
+  border-radius: 6px;
+  transition: all 0.1s ease-in-out;
+}
+
+.page-button h6 {
+  color: #1379a8;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 0.4rem;
+}
+
+.page-button p {
+  color: #1379a8;
+  font-size: 14px;
+}
+
+.popup-react-text {
+  visibility: hidden;
+  padding: 1rem 1rem 0rem 1rem;
+  position: absolute;
+  display: inline-block;
+  z-index: 1;
+  margin-top: -0.4rem;
+  background: #ffffff;
+  color: #1379a8;
+  border-radius: 50px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.svg-react-hover:hover .popup-react-text {
+  visibility: visible;
+  padding: 1rem 1rem 0rem 1rem;
+  position: absolute;
+  z-index: 1;
+  display: inline-block;
+  background: #ffffff;
+  color: #1379a8;
+  border-radius: 50px;
+  margin-left: 1rem;
+  margin-top: -0.4rem;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  transition: all 0.5s ease-in-out;
+}
+
+.popup-insight-text {
+  visibility: hidden;
+  width: 450px;
+  padding: 1rem 1rem 0rem 1rem;
+  position: absolute;
+  display: inline-block;
+  line-height: 1.6rem;
+  z-index: 1;
+  margin-left: -31%;
+  margin-top: -7%;
+  background: #ffffff;
+  color: #1379a8;
+  border-radius: 6px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.svg-insight-hover:hover .popup-insight-text {
+  visibility: visible;
+  padding: 1rem 1rem 0rem 1rem;
+  position: absolute;
+  z-index: 1;
+  display: inline-block;
+  margin-left: -31%;
+  margin-top: -10%;
+  background: #ffffff;
+  color: #1379a8;
+  border-radius: 6px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  transition: all 0.5s ease-in-out;
+}
+
+.popup-insight-text::after {
+  content:'';
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-color: violet transparent transparent transparent;
+}
