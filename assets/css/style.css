@@ -116,7 +116,7 @@ Social Icons
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
-Navigation Icons
+Navigation Menu (Desktop)
 ----------------------------------------------------------------------------------------------------------------------------*/
 .navbar-icons {
   fill: #6f7180;
@@ -130,8 +130,7 @@ Navigation Icons
   height: 36px;
 }
 
-.nav-menu span,
-.nav-menu-alt span {
+.nav-menu span {
   padding-left: 4px;
   margin: 12px;
   display: block;
@@ -142,29 +141,22 @@ Navigation Icons
   margin-top: 20px;
 }
 
-/*----------------------------------------------------------------------------------------------------------------------------
-Navigation Menu (Desktop)
-----------------------------------------------------------------------------------------------------------------------------*/
-.nav-menu *,
-.nav-menu-alt * {
+.nav-menu * {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.nav-menu,
-.nav-menu-alt {
+.nav-menu {
   padding-top: 30px;
 }
 
-.nav-menu,
-.nav-menu-alt > ul > li {
+.nav-menu > ul > li {
   position: relative;
   white-space: nowrap;
 }
 
-.nav-menu a,
-.nav-menu-alt a {
+.nav-menu a {
   display: flex;
   align-items: center;
   color: #6f7180;
@@ -174,44 +166,35 @@ Navigation Menu (Desktop)
   height: 56px;
 }
 
-.nav-menu a i,
-.nav-menu-alt a i {
+.nav-menu a i {
   font-size: 24px;
   padding-right: 8px;
   color: #6f7180;
 }
 
-.nav-menu .active > a,
-.nav-menu-alt .active > a {
+.nav-menu .active > a  {
   text-decoration: none;
   color: #ffffff;
 }
 
-.nav-menu li:hover > a,
-.nav-menu-alt li:hover > a {
+.nav-menu li:hover > a {
   text-decoration: none;
   color: #ffffff;
 }
 
-.nav-menu .active > a i,
-.nav-menu-alt .active > a i,
-.nav-menu li:hover > a i,
-.nav-menu-alt li:hover > a i {
+.nav-menu .active > a i 
+.nav-menu li:hover > a i {
   color: #ffffff;
 }
 
-.nav-menu a:hover,
-.nav-menu-alt a:hover,
-.nav-menu li:hover > a,
-.nav-menu-alt li:hover > a {
+.nav-menu a:hover 
+.nav-menu li:hover > a {
   text-decoration: none;
   color: #ffffff;
 }
 
-.nav-menu a:hover i,
-.nav-menu-alt a:hover i,
-.nav-menu li:hover > a i,
-.nav-menu-alt li:hover > a i {
+.nav-menu a:hover i 
+.nav-menu li:hover > a i {
   color: #ffffff;
 }
 
