@@ -429,7 +429,7 @@ Profile Preview
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
-Tech Expertise
+Technical Skills
 ----------------------------------------------------------------------------------------------------------------------------*/
 .software .progress {
   height: 50px;
@@ -631,7 +631,7 @@ Awards Bucket
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
-Portfolio Works
+Portfolio Panel
 ----------------------------------------------------------------------------------------------------------------------------*/
 .small-icons {
   fill: #fff;
@@ -745,7 +745,7 @@ Portfolio Works
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------
-Design Widgets
+Work Expertise
 ----------------------------------------------------------------------------------------------------------------------------*/
 .proficiency .icon-box {
   margin-bottom: 20px;
@@ -1148,74 +1148,82 @@ Project-Page-Style
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: -1rem;
+  margin-top: 0.5rem;
   border-radius: 100px;
 }
 
 .info-details-title h3 {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 500;
   color: #1379a8;
-  text-align: center;
-  margin-top: 10px;
+  line-height: normal;
+}
+
+.previous-next {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -6rem;
 }
 
 .arrow-left {
   border: solid #1379a8;
-  border-width: 0 1px 1px 0;
-  padding: 5px;
+  border-width: 0 1.5px 1.5px 0;
+  padding: 4px;
   transform: rotate(-45deg);
 }
 
+.arrow-right {
+  border: solid 4px #1379a8;
+  border-width: 0 1.5px 1.5px 0;
+  padding: 4px;
+  transform: rotate(135deg);
+}
+
 #arrow-bg-left {
-  height: 40px;
+  height: 30px;
   width: 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-radius: 100px;
-  padding: 0 20px 0 12px;
+  border-radius: 8px 50px 50px 8px;
+  padding: 0 20px 0 10px;
+  background-color: #f5f8fd;
+}
+
+#arrow-bg-right {
+  height: 30px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 50px 8px 8px 50px;
+  padding: 0 10px 0 20px;
+  background-color: #f5f8fd;
 }
 
 #arrow-bg-left:hover {
-  height: 40px;
+  height: 30px;
   width: 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #f5f8fd;
-  border-radius: 100px;
-  padding: 0 20px 0 12px;
+  background-color: #b3e2f7;
+  border-radius: 8px 50px 50px 8px;
+  padding: 0 20px 0 10px;
   transition: all 0.5s ease-in-out;
   cursor: pointer;
 }
 
-.arrow-right {
-  border: solid #1379a8;
-  border-width: 0 1px 1px 0;
-  padding: 5px;
-  transform: rotate(135deg);
-}
-
-#arrow-bg-right {
-  height: 40px;
-  width: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-radius: 100px;
-  padding: 0 20px 0 16px;
-}
-
 #arrow-bg-right:hover {
-  height: 40px;
+  height: 30px;
   width: 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #f5f8fd;
-  border-radius: 100px;
-  padding: 0 20px 0 16px;
+  background-color: #b3e2f7;
+  border-radius: 50px 8px 8px 50px;
+  padding: 0 10px 0 20px;
   transition: all 0.5s ease-in-out;
   cursor: pointer;
 }
@@ -1230,8 +1238,16 @@ Project-Page-Style
   border-radius: 8px;
   display: flex;
   border: 1px solid lightgray;
-  margin-top: -2rem;
+  margin-top: -3rem;
   }
+
+  #section-photo-gallery h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(134, 134, 134);
+    text-align: center;
+  }
+
 /* ---------------------------------------------------------------------------------------------------------------------------- */
 
 .info-details-container {
@@ -1300,41 +1316,23 @@ Project-Page-Style
 
 .popup-insight-text {
   visibility: hidden;
-  width: 450px;
   padding: 1rem 1rem 0rem 1rem;
   position: absolute;
   display: inline-block;
   line-height: 1.6rem;
   z-index: 1;
-  margin-left: -31%;
-  margin-top: -7%;
   background: #ffffff;
   color: #1379a8;
   border-radius: 6px;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  align-items: flex-end;
+  margin-top: -7rem;
+  margin-left: -18rem;
 }
 
 .svg-insight-hover:hover .popup-insight-text {
   visibility: visible;
-  padding: 1rem 1rem 0rem 1rem;
-  position: absolute;
-  z-index: 1;
-  display: inline-block;
-  margin-left: -31%;
-  margin-top: -10%;
-  background: #ffffff;
-  color: #1379a8;
-  border-radius: 6px;
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   transition: all 0.5s ease-in-out;
+  margin-top: -8rem;
 }
 
-.popup-insight-text::after {
-  content:'';
-  position: absolute;
-  top: 70%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-color: violet transparent transparent transparent;
-}
