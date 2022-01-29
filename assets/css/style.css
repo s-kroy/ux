@@ -777,21 +777,23 @@ Work Expertise
   font-size: 14px;
 }
 
-.de-icons {
+#oval-icon-title {
+  margin-top: -80px;
+  }
+
+.oval-shaped-icons {
   fill:#1379a8;
   border-radius: 100px;
-  border: 2px solid #1379a8; 
   width: 40px;
   height: 80px;
   background: #f5f8fd;
   margin-top: 10px;
 }
 
-.de-icons:hover {
+.oval-shaped-icons:hover {
   margin-top: 10px;
   fill: #ffffff;
   border-radius: 100px;
-  border: 2px solid #1379a8; 
   width: 40px;
   height: 80px;
   background: #1379a8;
@@ -801,9 +803,6 @@ Work Expertise
   transition-delay: 0s;
 }
 
-#de-texts {
-  margin-top: -80px;
-  }
 
 /*----------------------------------------------------------------------------------------------------------------------------
 Key Testimonial
