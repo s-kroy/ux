@@ -1,6 +1,4 @@
-/*----------------------------------------------------------------------------------------------------------------------------
-General Styling
-----------------------------------------------------------------------------------------------------------------------------*/
+/* General Style */
 body {
   font-family: "Open Sans", sans-serif;
   color: #082d58;
@@ -30,9 +28,7 @@ p {
   font-size: 14px;
 }
 
-/*----------------------------------------------------------------------------------------------------------------------------
-Header Section
-----------------------------------------------------------------------------------------------------------------------------*/
+/* Header-Style */
 #header {
   position: fixed;
   top: 0;
@@ -60,9 +56,7 @@ Header Section
   }
 }
 
-/*----------------------------------------------------------------------------------------------------------------------------
-Website Logo
-----------------------------------------------------------------------------------------------------------------------------*/
+/* Webside-Logo */
 #header .logo {
   fill: #fff;
   width: 115px;
@@ -91,9 +85,7 @@ Website Logo
   transition-delay: 0s;
 }
 
-/*----------------------------------------------------------------------------------------------------------------------------
-Social Icons
-----------------------------------------------------------------------------------------------------------------------------*/
+/* Social-Icon */
 #header .social-media .social-links a {
   font-size: 10px;
   display: inline-block;
@@ -115,9 +107,7 @@ Social Icons
   text-decoration: none;
 }
 
-/*----------------------------------------------------------------------------------------------------------------------------
-Navigation Menu (Desktop)
-----------------------------------------------------------------------------------------------------------------------------*/
+/* Side-Navigation */
 .navbar-icons {
   fill: #6f7180;
   width: 36px;
@@ -198,9 +188,7 @@ Navigation Menu (Desktop)
   color: #ffffff;
 }
 
-/*----------------------------------------------------------------------------------------------------------------------------
-Hamburger Menu (Mobile)
-----------------------------------------------------------------------------------------------------------------------------*/
+/* Burger-Menu */
 .mobile-nav-toggle {
   position: fixed;
   left: 15px;
@@ -287,9 +275,7 @@ Hamburger Menu (Mobile)
   transform: rotate(45deg) translateY(0px);
 }
 
-/*----------------------------------------------------------------------------------------------------------------------------
-Background (Hero) Image
-----------------------------------------------------------------------------------------------------------------------------*/
+/* Hero-Image */
 #hero {
   width: 100%;
   height: 100vh;
@@ -353,9 +339,7 @@ Background (Hero) Image
   }
 }
 
-/*----------------------------------------------------------------------------------------------------------------------------
-Section Styling
-----------------------------------------------------------------------------------------------------------------------------*/
+/* Section-Style */
 section {
   padding: 60px 0;
   overflow: hidden;
@@ -398,10 +382,8 @@ section {
   font-size: 16px;
 }
 
-/*----------------------------------------------------------------------------------------------------------------------------
-Profile Preview
-----------------------------------------------------------------------------------------------------------------------------*/
-.profile .content h3 {
+/* Profile-Summary */
+.profile_summary .content h3 {
   font-size: 22px;
   font-weight: 600;
   text-align: center;
@@ -409,74 +391,36 @@ Profile Preview
   color: #1379a8;
 }
 
-.profile .content ul {
+.profile_summary .content ul {
   list-style: none;
   padding: 0;
 }
 
-.profile .content ul li {
+.profile_summary .content ul li {
   padding-bottom: 10px;
 }
 
-.profile .content ul i {
+.profile_summary .content ul i {
   font-size: 20px;
   padding-right: 2px;
   color: #1379a8;
 }
 
-.profile .content p:last-child {
+.profile_summary .content p:last-child {
   margin-bottom: 0;
 }
 
-/*----------------------------------------------------------------------------------------------------------------------------
-Technical Skills
-----------------------------------------------------------------------------------------------------------------------------*/
-.software .progress {
-  height: 50px;
-  display: block;
-  background: none;
-}
-
-.software .progress .skill {
-  padding: 0;
-  margin: 0 0 6px 0;
-  text-transform: none;
-  display: block;
-  font-weight: 500;
-  font-size: 14px;
-  font-family: "Poppins", sans-serif;
-  color: #050d18;
-}
-
-.software .progress .skill .val {
-  float: right;
-  font-style: normal;
-}
-
-.software .progress-bar-wrap {
-  background: #a6d1e7;
-}
-
-.software .progress-bar {
-  width: 1px;
-  height: 8px;
-  transition: 0.9s;
-  background-color: #1379a8;
-}
-
-/*----------------------------------------------------------------------------------------------------------------------------
-Job Experience
-----------------------------------------------------------------------------------------------------------------------------*/
-.career {
+/* Work-Experience */
+.work_experience {
   padding-bottom: 30px;
 }
 
-.career .count-box {
+.work_experience .count-box {
   padding: 30px;
   width: 100%;
 }
 
-.career .count-box span {
+.work_experience .count-box span {
   font-size: 40px;
   line-height: 40px;
   display: block;
@@ -485,7 +429,7 @@ Job Experience
   margin-left: 80px;
 }
 
-.career .count-box p {
+.work_experience .count-box p {
   padding: 10px 0 0 0;
   font-family: "Raleway", sans-serif;
   font-size: 16px;
@@ -504,10 +448,13 @@ Job Experience
   width: 60px;
 }
 
-/*----------------------------------------------------------------------------------------------------------------------------
-Academic Educations (Resume Repositary)
-----------------------------------------------------------------------------------------------------------------------------*/
-.resume h5 {
+#big-icon-row {
+margin-bottom: 50px;
+margin-top: 20px;
+}
+
+/* academic-educations */
+.work_experience h5 {
   font-size: 20px;
   padding: 5px 15px;
   display: inline-block;
@@ -515,7 +462,7 @@ Academic Educations (Resume Repositary)
   margin-bottom: 4px;
 }
 
-.resume .resume-title{
+.work_experience .resume-title{
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 22px;
@@ -523,27 +470,25 @@ Academic Educations (Resume Repositary)
   text-align: center;
 }
 
-.resume .education h5{
+.work_experience .education h5{
   margin-left: -10px;
   padding-top: 2px;
 }
 
-.resume .education ul{
+.work_experience .education ul{
   color: #1379a8;
   margin-left: -35px;
   font-size: 14px;
 }
 
-/*----------------------------------------------------------------------------------------------------------------------------
-Professional Courses (Resume Repositary)
-----------------------------------------------------------------------------------------------------------------------------*/
-.resume .certification h5{
+/* professional-courses */
+.work_experience .certification h5{
   margin-left: -8px;
   font-size: 16px;
   margin-top: 4px;
 }
 
-.resume .certification ul a{
+.work_experience .certification ul a{
   padding: 2px 10px 2px 2px;
   color: #1379a8;
   background-color: #e4edf9;
@@ -552,7 +497,7 @@ Professional Courses (Resume Repositary)
   margin-left: -30px;
 }
 
-.resume .certificate-icon {
+.work_experience .certificate-icon {
   fill: #1379a8;
   width: 20px;
   height: 20px;
@@ -561,7 +506,7 @@ Professional Courses (Resume Repositary)
   background-color: #ffffff;
 }
 
-.resume .certificate-icon:hover {
+.work_experience .certificate-icon:hover {
   background-color: #1379a8;
   width: 20px;
   height: 20px;
@@ -571,16 +516,14 @@ Professional Courses (Resume Repositary)
   transition: all 0.5s ease-in-out;
 }
 
-/*----------------------------------------------------------------------------------------------------------------------------
-Employment History (Resume Repositary)
---------------------------------------------------------------------------------------------------------------------------- */
-.resume .employment {
+/* employment-history */
+.work_experience .employment {
   padding: 0 0 30px 20px;
   border-left: 2px solid #1379a8;
   position: relative;
 }
 
-.resume .employment h3 {
+.work_experience .employment h3 {
   line-height: 28px;
   font-size: 18px;
   font-weight: 500;
@@ -590,7 +533,7 @@ Employment History (Resume Repositary)
   margin-top: 8px;
 }
 
-.resume .employment h4 {
+.work_experience .employment h4 {
   line-height: 20px;
   font-size: 16px;
   font-weight: 400;
@@ -599,7 +542,7 @@ Employment History (Resume Repositary)
   margin-bottom: 4px;
 }
 
-.resume .employment h5 {
+.work_experience .employment h5 {
   font-size: 14px;
   background: #e4edf9;
   padding: 4px 14px;
@@ -610,11 +553,11 @@ Employment History (Resume Repositary)
   color: #1379a8;
 }
 
-.resume .employment:last-child {
+.work_experience .employment:last-child {
   padding-bottom: 0;
 }
 
-.resume .employment::before {
+.work_experience .employment::before {
   content: "";
   position: absolute;
   width: 16px;
@@ -626,37 +569,34 @@ Employment History (Resume Repositary)
   border: 2px solid #1379a8;
 }
 
-/*----------------------------------------------------------------------------------------------------------------------------
-Awards Bucket
-----------------------------------------------------------------------------------------------------------------------------*/
-.award-enrichment ul{
+/* Achivement-List */
+.achivement_list ul{
   margin-left: -20px;
   margin-right: 4px;
   text-justify: distribute-all-lines;
 }
 
-/*----------------------------------------------------------------------------------------------------------------------------
-Portfolio Panel
-----------------------------------------------------------------------------------------------------------------------------*/
+
+/* Portfolio-Preview */
 .small-icons {
   fill: #fff;
   width: 30px;
 }
 
-.portfolio .portfolio-item {
+.portfolio_preview .portfolio-item {
   margin-bottom: 30px;
 }
 
-.portfolio #portfolio-flters {
+.portfolio_preview #portfolio-flters {
   padding: 0;
   margin: 0 auto 35px auto;
   list-style: none;
   text-align: center;
-  background: #fff;
+  background: #f5f8fd;
   border-radius: 50px;
 }
 
-.portfolio #portfolio-flters li {
+.portfolio_preview #portfolio-flters li {
   cursor: pointer;
   display: inline-block;
   padding: 10px 15px 8px 15px;
@@ -669,8 +609,8 @@ Portfolio Panel
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio #portfolio-flters li:hover,
-.portfolio #portfolio-flters li.filter-active {
+.portfolio_preview #portfolio-flters li:hover,
+.portfolio_preview #portfolio-flters li.filter-active {
   color: #082d58;
   background: rgba(20, 157, 221, 0.295);
   line-height: 1;
@@ -678,19 +618,20 @@ Portfolio Panel
   border-radius: 50px;
 }
 
-.portfolio #portfolio-flters li:last-child {
+.portfolio_preview #portfolio-flters li:last-child {
   margin-right: 0;
 }
 
-.portfolio .portfolio-wrap {
+.portfolio_preview .portfolio-wrap {
   transition: 0.3s;
   position: relative;
   overflow: hidden;
   z-index: 1;
-  border-radius: 8px;
+  border-radius: 12px;
+  border: solid .5px lightgray;
 }
 
-.portfolio .portfolio-wrap::before {
+.portfolio_preview .portfolio-wrap::before {
   content: "";
   background: rgba(255, 255, 255, 0.5);
   position: absolute;
@@ -703,7 +644,7 @@ Portfolio Panel
   opacity: 0;
 }
 
-.portfolio .portfolio-wrap .portfolio-links {
+.portfolio_preview .portfolio-wrap .portfolio-links {
   opacity: 1;
   left: 0;
   right: 0;
@@ -714,7 +655,7 @@ Portfolio Panel
   display: flex;
 }
 
-.portfolio .portfolio-wrap .portfolio-links a {
+.portfolio_preview .portfolio-wrap .portfolio-links a {
   color: #fff;
   font-size: 16px;
   text-align: center;
@@ -723,15 +664,15 @@ Portfolio Panel
   width: 50%;
 }
 
-.portfolio .portfolio-wrap .portfolio-links a:hover {
+.portfolio_preview .portfolio-wrap .portfolio-links a:hover {
   background: rgba(20, 157, 221, 0.80);
 }
 
-.portfolio .portfolio-wrap .portfolio-links a + a {
+.portfolio_preview .portfolio-wrap .portfolio-links a + a {
   border-left: 1px solid #149ddd;
 }
 
-.portfolio .portfolio-wrap:hover::before {
+.portfolio_preview .portfolio-wrap:hover::before {
   top: 0;
   left: 0;
   right: 0;
@@ -739,7 +680,7 @@ Portfolio Panel
   opacity: 1;
 }
 
-.portfolio .portfolio-wrap:hover .portfolio-links {
+.portfolio_preview .portfolio-wrap:hover .portfolio-links {
   opacity: 1;
   bottom: 0;
 }
@@ -750,14 +691,46 @@ Portfolio Panel
   }
 }
 
-/*----------------------------------------------------------------------------------------------------------------------------
-Work Expertise
-----------------------------------------------------------------------------------------------------------------------------*/
-.proficiency .icon-box {
+/* Tech-Proficiency */
+.tech_proficiency .progress {
+  height: 50px;
+  display: block;
+  background: none;
+}
+
+.tech_proficiency .progress .skill {
+  padding: 0;
+  margin: 0 0 6px 0;
+  text-transform: none;
+  display: block;
+  font-weight: 500;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  color: #050d18;
+}
+
+.tech_proficiency .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+
+.tech_proficiency .progress-bar-wrap {
+  background: #a6d1e7;
+}
+
+.tech_proficiency .progress-bar {
+  width: 1px;
+  height: 8px;
+  transition: 0.9s;
+  background-color: #1379a8;
+}
+
+/* Design-Expertise */
+.design_expertise .icon-box {
   margin-bottom: 20px;
 }
 
-.proficiency .icon {
+.design_expertise .icon {
   float: left;
   display: flex;
   align-items: center;
@@ -769,7 +742,7 @@ Work Expertise
   transition: 0.5s;
 }
 
-.proficiency .title {
+.design_expertise .title {
   margin-left: 56px;
   font-weight: 600;
   margin-bottom: 4px;
@@ -777,7 +750,7 @@ Work Expertise
   color: #1379a8;
 }
 
-.proficiency .description {
+.design_expertise .description {
   margin-left: 56px;
   line-height: 20px;
   font-size: 14px;
@@ -809,61 +782,59 @@ Work Expertise
   transition-delay: 0s;
 }
 
-
-/*----------------------------------------------------------------------------------------------------------------------------
-Key Testimonial
-----------------------------------------------------------------------------------------------------------------------------*/
-.testimonials .testimonial-item {
+/* Key-Testimonials */
+.key_testimonials .testimonial-item {
   box-sizing: content-box;
   text-align: center;
   min-height: 320px;
 }
 
-.testimonials .testimonial-item .testimonial-img {
+.key_testimonials .testimonial-item .testimonial-img {
   width: 90px;
   border-radius: 50%;
   margin: 0 auto;
+  border: solid 1px rgb(222, 222, 222);
 }
 
-.testimonials .testimonial-item h3 {
+.key_testimonials .testimonial-item h3 {
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0 5px 0;
   color: #111;
 }
 
-.testimonials .testimonial-item h4 {
+.key_testimonials .testimonial-item h4 {
   font-size: 16px;
   color: #999;
   margin: 0;
 }
 
-.testimonials .testimonial-item h5 {
+.key_testimonials .testimonial-item h5 {
   font-size: 14px;
   color: rgb(114, 114, 114);
   margin: 4px 0 5px 0;
 }
 
-.testimonials .testimonial-item .quote-icon-left,
-.testimonials .testimonial-item .quote-icon-right {
+.key_testimonials .testimonial-item .quote-icon-left,
+.key_testimonials .testimonial-item .quote-icon-right {
   color: #c3e8fa;
   font-size: 26px;
 }
 
-.testimonials .testimonial-item .quote-icon-left {
+.key_testimonials .testimonial-item .quote-icon-left {
   display: inline-block;
   left: -5px;
   position: relative;
 }
 
-.testimonials .testimonial-item .quote-icon-right {
+.key_testimonials .testimonial-item .quote-icon-right {
   display: inline-block;
   right: -5px;
   position: relative;
   top: 10px;
 }
 
-.testimonials .testimonial-item p {
+.key_testimonials .testimonial-item p {
   font-size: 16px;
   margin: 0 15px 15px 15px;
   padding: 20px;
@@ -875,7 +846,7 @@ Key Testimonial
   text-justify: distribute-all-lines;
 }
 
-.testimonials .testimonial-item p::after {
+.key_testimonials .testimonial-item p::after {
   content: "";
   width: 0;
   height: 0;
@@ -887,13 +858,13 @@ Key Testimonial
   left: calc(50% - 20px);
 }
 
-.testimonials .owl-nav,
-.testimonials .owl-dots {
+.key_testimonials .owl-nav,
+.key_testimonials .owl-dots {
   margin-top: 5px;
   text-align: center;
 }
 
-.testimonials .owl-dot {
+.key_testimonials .owl-dot {
   display: inline-block;
   margin: 0 5px;
   width: 12px;
@@ -902,7 +873,7 @@ Key Testimonial
   background-color: #ddd !important;
 }
 
-.testimonials .owl-dot.active {
+.key_testimonials .owl-dot.active {
   background-color: #1379a8 !important;
 }
 
@@ -920,50 +891,48 @@ Key Testimonial
 }
 
 @media (max-width: 767px) {
-  .testimonials {
+  .key_testimonials {
     margin: 30px 10px;
   }
 }
 
-/*----------------------------------------------------------------------------------------------------------------------------
-Contact Details
-----------------------------------------------------------------------------------------------------------------------------*/
-.contact {
+/* Contact-Synopsis */
+.contact_synopsis {
   padding-bottom: 130px;
 }
 
-.contact .info {
+.contact_synopsis .info {
   padding: 20px;
   background: #fff;
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 
-.contact .info h4 {
+.contact_synopsis .info h4 {
   padding: 0 0 0 4px;
   font-size: 22px;
   font-weight: 600;
   color: #050d18;
 }
 
-.contact .info p {
+.contact_synopsis .info p {
   padding: 0 0 0 4px;
   font-size: 14px;
   color: #173b6c;
 }
 
-.contact .php-email-form {
+.contact_synopsis .php-email-form {
   width: 100%;
   padding: 30px;
   background: #fff;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 
-.contact .php-email-form .form-group {
+.contact_synopsis .php-email-form .form-group {
   padding-bottom: 8px;
 }
 
-.contact .php-email-form .validate {
+.contact_synopsis .php-email-form .validate {
   display: none;
   color: red;
   margin: 0 0 15px 0;
@@ -971,7 +940,7 @@ Contact Details
   font-size: 13px;
 }
 
-.contact .php-email-form .error-message {
+.contact_synopsis .php-email-form .error-message {
   display: none;
   color: #fff;
   background: #ed3c0d;
@@ -980,7 +949,7 @@ Contact Details
   font-weight: 600;
 }
 
-.contact .php-email-form .sent-message {
+.contact_synopsis .php-email-form .sent-message {
   display: none;
   color: #fff;
   background: #18d26e;
@@ -989,14 +958,14 @@ Contact Details
   font-weight: 600;
 }
 
-.contact .php-email-form .loading {
+.contact_synopsis .php-email-form .loading {
   display: none;
   background: #fff;
   text-align: center;
   padding: 15px;
 }
 
-.contact .php-email-form .loading:before {
+.contact_synopsis .php-email-form .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
@@ -1008,22 +977,22 @@ Contact Details
   animation: animate-loading 1s linear infinite;
 }
 
-.contact .php-email-form input,
-.contact .php-email-form textarea {
+.contact_synopsis .php-email-form input,
+.contact_synopsis .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
 }
 
-.contact .php-email-form input {
+.contact_synopsis .php-email-form input {
   height: 44px;
 }
 
-.contact .php-email-form textarea {
+.contact_synopsis .php-email-form textarea {
   padding: 10px 12px;
 }
 
-.contact .php-email-form button[type="submit"] {
+.contact_synopsis .php-email-form button[type="submit"] {
   background: #1379a8;
   border: 0;
   padding: 10px 24px;
@@ -1032,7 +1001,7 @@ Contact Details
   border-radius: 4px;
 }
 
-.contact .php-email-form button[type="submit"]:hover {
+.contact_synopsis .php-email-form button[type="submit"]:hover {
   background: #3c4261;
 }
 
@@ -1045,7 +1014,7 @@ Contact Details
   border-radius: 50%;
 }
 
-.contact-icons:hover {
+.contact_synopsis-icons:hover {
   fill: #fff;
   width: 40px;
   height: 40px;
@@ -1071,9 +1040,7 @@ Contact Details
   }
 }
 
-/*----------------------------------------------------------------------------------------------------------------------------
-Footer Section
-----------------------------------------------------------------------------------------------------------------------------*/
+/* Footer-Style */
 #footer {
   padding: 1.5em;
   color: #f4f6fd;
@@ -1111,9 +1078,7 @@ Footer Section
   }
 }
 
-/*----------------------------------------------------------------------------------------------------------------------------
-Back-To-Top
-----------------------------------------------------------------------------------------------------------------------------*/
+/* Back-To-Top */
 .back-to-top {
   position: fixed;
   display: none;
@@ -1143,10 +1108,7 @@ Back-To-Top
   transform: rotate(-135deg);
 }
 
-/*----------------------------------------------------------------------------------------------------------------------------
-Project-Page-Style
-----------------------------------------------------------------------------------------------------------------------------*/
-
+/* Project-Style */
 .info-details-title  {
   height: 100%;
   width: 100%;
@@ -1233,8 +1195,6 @@ Project-Page-Style
   cursor: pointer;
 }
 
-/* ---------------------------------------------------------------------------------------------------------------------------- */
-
 #section-photo-gallery {
   align-items: center;
   display: flex;
@@ -1252,8 +1212,6 @@ Project-Page-Style
     color: rgb(134, 134, 134);
     text-align: center;
   }
-
-/* ---------------------------------------------------------------------------------------------------------------------------- */
 
 .info-details-container {
   height: 100%;
