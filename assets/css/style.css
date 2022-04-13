@@ -421,16 +421,16 @@ section {
 }
 
 .work_experience .count-box span {
-  font-size: 40px;
-  line-height: 40px;
+  font-size: 30px;
+  line-height: 30px;
   display: block;
-  font-weight: 600;
+  font-weight: 700;
   color: #173b6c;
-  margin-left: 80px;
+  text-align: center;
 }
 
 .work_experience .count-box p {
-  padding: 10px 0 0 0;
+  padding: 20px 0 0 0;
   font-family: "Raleway", sans-serif;
   font-size: 16px;
   font-weight: 600;
@@ -569,8 +569,8 @@ margin-top: 20px;
   border: 2px solid #1379a8;
 }
 
-/* Acheivement-List */
-.achievement_list ul{
+/* Few-Enrichments */
+.few_enrichments ul{
   margin-left: -20px;
   margin-right: 4px;
   text-justify: distribute-all-lines;
