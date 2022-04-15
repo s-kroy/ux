@@ -1109,7 +1109,6 @@ margin-top: 20px;
 /* Page-Style */
 .arrow-buttons {
   display: flex;
-  margin-top: 0rem;
 }
 
 .arrow-left {
@@ -1117,6 +1116,7 @@ margin-top: 20px;
   border-width: 0 1.5px 1.5px 0;
   padding: 4px;
   transform: rotate(-45deg);
+  margin-left: -4px;
 }
 
 .arrow-right {
@@ -1124,52 +1124,53 @@ margin-top: 20px;
   border-width: 0 1.5px 1.5px 0;
   padding: 4px;
   transform: rotate(135deg);
+  margin-left: 4px;
 }
 
 #arrow-bg-left {
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-radius: 8px 50px 50px 8px;
-  padding: 0 20px 0 10px;
+  padding: 10px;
   background-color: #f5f8fd;
+  border-radius: 8px 50px 50px 8px;
 }
 
 #arrow-bg-right {
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-radius: 50px 8px 8px 50px;
-  padding: 0 10px 0 20px;
+  padding: 10px;
   background-color: #f5f8fd;
+  border-radius: 50px 8px 8px 50px;
 }
 
 #arrow-bg-left:hover {
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: #b3e2f7;
   border-radius: 8px 50px 50px 8px;
-  padding: 0 20px 0 10px;
+  padding: 10px;
   transition: all 0.5s ease-in-out;
   cursor: pointer;
 }
 
 #arrow-bg-right:hover {
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: #b3e2f7;
   border-radius: 50px 8px 8px 50px;
-  padding: 0 10px 0 20px;
+  padding: 10px;
   transition: all 0.5s ease-in-out;
   cursor: pointer;
 }
@@ -1183,11 +1184,11 @@ margin-top: 20px;
   border: 1px solid lightgray;
   }
 
-  #photo-gallery h3 {
-    font-size: 20px;
-    font-weight: 500;
-    color: rgb(134, 134, 134);
-    text-align: center;
+#photo-gallery h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(134, 134, 134);
+  text-align: center;
   }
 
 .icon-svg {
