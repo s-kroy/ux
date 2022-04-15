@@ -1034,7 +1034,6 @@ margin-top: 20px;
 
 /* Footer-Style */
 #footer {
-  padding: 1.5em;
   color: #f4f6fd;
   position: fixed;
   left: 0;
@@ -1042,24 +1041,31 @@ margin-top: 20px;
   width: 240px;
   z-index: 9999;
   background: #091330;
+  padding: 4px;
 }
 
 #footer .copyright {
   text-align: center;
 }
+
 #footer .copyright a {
-  padding-top: 6px;
   text-align: center;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 600;
   color: #3c4261;
 }
+
 #footer .copyright a:hover {
-  padding-top: 6px;
   text-align: center;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 600;
   color: #666d8f;
+}
+
+#footer-text p{
+  font-size: x-small;
+  color: #3c4261;
+  text-align: center;
 }
 
 @media (max-width: 1199px) {
