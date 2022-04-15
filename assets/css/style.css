@@ -13,12 +13,7 @@ a:hover {
   text-decoration: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
@@ -411,44 +406,41 @@ section {
 }
 
 /* Work-Experience */
-.work_experience {
-  padding-bottom: 30px;
+.work_experience .big-icon-box {
+  margin-left: 30px;
 }
 
 .work_experience .count-box {
-  padding: 30px;
+  padding: 20px;
   width: 100%;
 }
 
 .work_experience .count-box span {
-  font-size: 30px;
-  line-height: 30px;
+  font-size: 40px;
   display: block;
   font-weight: 700;
   color: #173b6c;
-  text-align: center;
+  margin-top: -40px;
+  line-height: 20px; 
+  text-align: right;
+  margin-right: 30px;
 }
 
 .work_experience .count-box p {
-  padding: 20px 0 0 0;
   font-family: "Raleway", sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 600;
   color: #1379a8;
-  margin-left: 50px;
+  text-align: center;
+  margin-top: 30px;
 }
 
-.big-icon-box {
-  margin-bottom: -80px;
-  margin-left: -20px;
-}
-
-.big-icons {
+.work_experience .big-icons {
   fill: #1379a8;
   width: 60px;
 }
 
-#big-icon-row {
+.work_experience #big-icon-row {
 margin-bottom: 50px;
 margin-top: 20px;
 }
@@ -1108,29 +1100,10 @@ margin-top: 20px;
   transform: rotate(-135deg);
 }
 
-/* Project-Style */
-.info-details-title  {
-  height: 100%;
-  width: 100%;
+/* Page-Style */
+.arrow-buttons {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 0.5rem;
-  border-radius: 100px;
-}
-
-.info-details-title h3 {
-  font-size: 22px;
-  font-weight: 500;
-  color: #1379a8;
-  line-height: normal;
-}
-
-.previous-next {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: -6rem;
+  margin-top: 0rem;
 }
 
 .arrow-left {
@@ -1148,7 +1121,7 @@ margin-top: 20px;
 }
 
 #arrow-bg-left {
-  height: 30px;
+  height: 40px;
   width: 40px;
   display: flex;
   align-items: center;
@@ -1159,7 +1132,7 @@ margin-top: 20px;
 }
 
 #arrow-bg-right {
-  height: 30px;
+  height: 40px;
   width: 40px;
   display: flex;
   align-items: center;
@@ -1170,7 +1143,7 @@ margin-top: 20px;
 }
 
 #arrow-bg-left:hover {
-  height: 30px;
+  height: 40px;
   width: 40px;
   display: flex;
   align-items: center;
@@ -1183,7 +1156,7 @@ margin-top: 20px;
 }
 
 #arrow-bg-right:hover {
-  height: 30px;
+  height: 40px;
   width: 40px;
   display: flex;
   align-items: center;
@@ -1195,7 +1168,7 @@ margin-top: 20px;
   cursor: pointer;
 }
 
-#section-photo-gallery {
+#photo-gallery {
   align-items: center;
   display: flex;
   justify-content: center;
@@ -1203,24 +1176,14 @@ margin-top: 20px;
   border-radius: 8px;
   display: flex;
   border: 1px solid lightgray;
-  margin-top: -3rem;
   }
 
-  #section-photo-gallery h3 {
+  #photo-gallery h3 {
     font-size: 20px;
     font-weight: 500;
     color: rgb(134, 134, 134);
     text-align: center;
   }
-
-.info-details-container {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: -2rem;
-}
 
 .icon-svg {
   fill: #1379a8;
@@ -1235,67 +1198,5 @@ margin-top: 20px;
   background: #1379a8;
   border-radius: 6px;
   transition: all 0.1s ease-in-out;
-}
-
-.page-button h6 {
-  color: #1379a8;
-  font-size: 14px;
-  text-align: center;
-  margin-top: 0.4rem;
-}
-
-.page-button p {
-  color: #1379a8;
-  font-size: 14px;
-}
-
-.popup-react-text {
-  visibility: hidden;
-  padding: 1rem 1rem 0rem 1rem;
-  position: absolute;
-  display: inline-block;
-  z-index: 1;
-  margin-top: -0.4rem;
-  background: #ffffff;
-  color: #1379a8;
-  border-radius: 50px;
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-}
-
-.svg-react-hover:hover .popup-react-text {
-  visibility: visible;
-  padding: 1rem 1rem 0rem 1rem;
-  position: absolute;
-  z-index: 1;
-  display: inline-block;
-  background: #ffffff;
-  color: #1379a8;
-  border-radius: 50px;
-  margin-left: 1rem;
-  margin-top: -0.4rem;
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-  transition: all 0.5s ease-in-out;
-}
-
-.popup-insight-text {
-  visibility: hidden;
-  padding: 1rem 1rem 0rem 1rem;
-  position: absolute;
-  display: inline-block;
-  line-height: 1.6rem;
-  z-index: 1;
-  background: #ffffff;
-  color: #1379a8;
-  border-radius: 6px;
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-  align-items: flex-end;
-  margin-top: -7rem;
-  margin-left: -18rem;
-}
-
-.svg-insight-hover:hover .popup-insight-text {
-  visibility: visible;
-  transition: all 0.5s ease-in-out;
-  margin-top: -8rem;
 }
 
