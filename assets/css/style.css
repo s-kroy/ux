@@ -1051,14 +1051,14 @@ margin-top: 20px;
 #footer .copyright a {
   text-align: center;
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 400;
   color: #3c4261;
 }
 
 #footer .copyright a:hover {
   text-align: center;
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 400;
   color: #666d8f;
 }
 
@@ -1180,7 +1180,6 @@ margin-top: 20px;
   justify-content: center;
   background: #fff;
   border-radius: 8px;
-  display: flex;
   border: 1px solid lightgray;
   }
 
