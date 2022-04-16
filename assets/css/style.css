@@ -1041,7 +1041,7 @@ margin-top: 20px;
   width: 240px;
   z-index: 9999;
   background: #091330;
-  padding: 4px;
+  padding: 2px;
 }
 
 #footer .copyright {
@@ -1050,20 +1050,25 @@ margin-top: 20px;
 
 #footer .copyright a {
   text-align: center;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 400;
   color: #3c4261;
 }
 
 #footer .copyright a:hover {
   text-align: center;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 400;
-  color: #666d8f;
+  color: #091330;
+  background: #666d8f;
+  padding: 2px 8px 2px 8px;
+  border-radius: 12px;
+  transition: all .5s ease-in-out;
+  cursor: pointer;
 }
 
 #footer-text p{
-  font-size: x-small;
+  font-size: xx-small;
   color: #3c4261;
   text-align: center;
 }
@@ -1107,8 +1112,8 @@ margin-top: 20px;
 }
 
 /* Page-Style */
-.arrow-buttons {
-  display: flex;
+.arrow-buttons-block {
+  margin-top: -40px;
 }
 
 .arrow-left {
@@ -1179,9 +1184,9 @@ margin-top: 20px;
   align-items: center;
   display: flex;
   justify-content: center;
-  background: #fff;
+  /* background: #fff;
   border-radius: 8px;
-  border: 1px solid lightgray;
+  border: .1px solid lightgray; */
   }
 
 #photo-gallery h3 {
@@ -1193,16 +1198,26 @@ margin-top: 20px;
 
 .icon-svg {
   fill: #1379a8;
-  width: 40px;
+  width: 36px;
   background: #f5f8fd;
   border-radius: 6px;
 }
 
 .icon-svg:hover {
   fill: #ffffff;
-  width: 40px;
+  width: 36px;
   background: #1379a8;
   border-radius: 6px;
   transition: all 0.1s ease-in-out;
 }
 
+.page-button p{
+  color: #1379a8;
+  font-size: 12px;
+  text-align: center;
+}
+
+.svg-icon-block {
+  display: block;
+  justify-content: center;
+}
