@@ -215,7 +215,7 @@ p {
   color: #fff;
 }
 
-.menubox-background{
+#menu-line-icon {
   position: relative;
   display: flex;
   justify-content: center;

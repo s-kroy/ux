@@ -2,7 +2,7 @@
 !(function ($) {
   "use strict";
 
-  // Animated typed texts on top the Hero background surface
+  // Animated Typed Texts on Hero Background
   if ($('.typed').length) {
     var typed_strings = $(".typed").data('typed-items');
     typed_strings = typed_strings.split(',')
@@ -15,7 +15,7 @@
     });
   }
 
-  // Smooth scroll for the navigation menu and links with .scrollto classes
+  // Smooth Scroll For Navigation Menu Links
   $(document).on('click', '.nav-menu a, .scrollto', function (e) {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
       e.preventDefault();
@@ -57,7 +57,7 @@
     }
   });
 
-  // Navigation active state on scroll
+  // Navigation Active State Cursor on Scroll
   var nav_sections = $('section');
   var main_nav = $('.nav-menu, #mobile-nav');
 
@@ -80,7 +80,7 @@
     });
   });
 
-  // Back to top button scroll to the top of the website
+  // Back To Top Button Scroll To Portal Top
   $(window).scroll(function () {
     if ($(this).scrollTop() > 100) {
       $('.back-to-top').fadeIn('slow');
@@ -96,13 +96,13 @@
     return false;
   });
 
-  // jQuery counterUp
+  //  jQuery Numbers Count Up Experience Icon 
   $('[data-toggle="counter-up"]').counterUp({
     delay: 10,
     time: 1000
   });
 
-  // Skills section
+  // Techical Skills Animate Progressive Bars
   $('.skills-content').waypoint(function () {
     $('.progress .progress-bar').each(function () {
       $(this).css("width", $(this).attr("aria-valuenow") + '%');
@@ -111,7 +111,7 @@
     offset: '80%'
   });
 
-  // Porfolio isotope and filter
+  // Porfolio Section Selection Filter Widget
   $(window).on('load', function () {
     var portfolioIsotope = $('.portfolio-container').isotope({
       itemSelector: '.portfolio-item',
@@ -133,7 +133,7 @@
     });
   });
 
-  // Testimonials carousel (uses the Owl Carousel library)
+  // Testimonial Owl Carousel library Comment
   $(".testimonials-carousel").owlCarousel({
     autoplay: true,
     dots: true,
@@ -151,31 +151,28 @@
     }
   });
 
-  // Initi AOS
+  // jQuery Initial All Section Content Appear
   AOS.init({
     duration: 1000,
     easing: "ease-in-out-back"
   });
+  })(jQuery);
 
-})(jQuery);
-
-
-// Burger
-function myFunction(x) {
-  x.classList.toggle("change");
-}
-
-
-// Ham Burger Menu (on click nav-icons or nav-links back to initial stage)
-const menuBtn = document.querySelector('box-background');
-let menuOpen = false;
-menuBtn.addEventListener('click', () => {
-  if (!menuOpen) {
-    menuBtn.classList.add('open');
-    menuOpen = true;
-  } else {
-    menuBtn.classList.remove('open');
-    menuOpen = false;
+  // On Click Hamburger Back to Initial Stage
+  const menuBtn = document.querySelector('box-background');
+  let menuOpen = false;
+  menuBtn.addEventListener('click', () => {
+    if (!menuOpen) {
+      menuBtn.classList.add('open');
+      menuOpen = true;
+    } else {
+      menuBtn.classList.remove('open');
+      menuOpen = false;
+    }
   }
-}
-);
+  );
+
+  // On Click Hamburger Lines Transform Cross
+  function myFunction(x) {
+    x.classList.toggle("change");
+  }
