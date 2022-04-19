@@ -1111,92 +1111,36 @@ margin-top: 20px;
   transform: rotate(-135deg);
 }
 
-/* Page-Style */
+/* Caption-Title */
+.carousel-control-prev {
+  width: unset
+}
+
+.carousel-control-next {
+  width: unset
+}
+
 .arrow-left {
   border: solid #1379a8;
-  border-width: 0 1.5px 1.5px 0;
-  padding: 4px;
+  border-width: 0 2px 2px 0;
+  padding: 5px;
   transform: rotate(-45deg);
-  margin-left: -4px;
 }
 
 .arrow-right {
   border: solid 4px #1379a8;
-  border-width: 0 1.5px 1.5px 0;
-  padding: 4px;
+  border-width: 0 2px 2px 0;
+  padding: 5px;
   transform: rotate(135deg);
-  margin-left: 4px;
 }
 
-#arrow-bg-left {
-  height: 30px;
-  width: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px;
-  background-color: #f5f8fd;
-  border-radius: 8px 50px 50px 8px;
-}
-
-#arrow-bg-right {
-  height: 30px;
-  width: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px;
-  background-color: #f5f8fd;
-  border-radius: 50px 8px 8px 50px;
-}
-
-#arrow-bg-left:hover {
-  height: 30px;
-  width: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #b3e2f7;
-  border-radius: 8px 50px 50px 8px;
-  padding: 10px;
-  transition: all 0.5s ease-in-out;
-  cursor: pointer;
-}
-
-#arrow-bg-right:hover {
-  height: 30px;
-  width: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #b3e2f7;
-  border-radius: 50px 8px 8px 50px;
-  padding: 10px;
-  transition: all 0.5s ease-in-out;
-  cursor: pointer;
-}
-
-#photo-gallery {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  background: #fff;
-  border-radius: 8px;
-  border: .1px solid lightgray;
-  }
-
-#photo-gallery h3 {
-  font-size: 20px;
-  font-weight: 500;
-  color: rgb(134, 134, 134);
-  text-align: center;
-  }
-
+/* Visitor-Button */
 .icon-svg {
   fill: #1379a8;
   width: 36px;
   background: #f5f8fd;
   border-radius: 6px;
+  margin-top: 12px;
 }
 
 .icon-svg:hover {
