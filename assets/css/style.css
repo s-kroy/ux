@@ -1,4 +1,4 @@
-/* General Style */
+/* Basic Style */
 body {
   font-family: "Open Sans", sans-serif;
   color: #082d58;
@@ -18,8 +18,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  text-align: justify;
-  text-justify: distribute-all-lines;
   font-size: 14px;
 }
 
@@ -1160,4 +1158,18 @@ margin-top: 20px;
 .svg-icon-block {
   display: block;
   justify-content: center;
+}
+
+#all-projects {
+  position: relative;
+  min-width: 340px;
+  width: 100%;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  background-size: cover;
+}
+
+.carousel-inner {
+  box-shadow: rgba(0, 0, 0, 0.172) 0px 5px 10px;
 }
