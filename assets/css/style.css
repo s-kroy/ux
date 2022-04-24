@@ -1129,7 +1129,7 @@ margin-top: 20px;
   border-width: 0 2px 2px 0;
   padding: 5px;
   transform: rotate(-45deg);
-  margin-bottom: 60px;
+  margin-bottom: 20px;
 }
 
 .arrow-right {
@@ -1137,7 +1137,7 @@ margin-top: 20px;
   border-width: 0 2px 2px 0;
   padding: 5px;
   transform: rotate(135deg);
-  margin-bottom: 60px;
+  margin-bottom: 20px;
 }
 
 /* Visitor-Button */
@@ -1197,3 +1197,45 @@ margin-top: 20px;
   bottom: 0;
   left: 0;
 }
+
+/* Tooltip-Text */
+/* .tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+} */
+
+/* <div class="tooltip">Mouse Hover<span class="tooltiptext">Tooltip Text</span></div> */
