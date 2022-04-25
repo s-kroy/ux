@@ -21,7 +21,7 @@ p {
   font-size: 14px;
   text-align:justify;
   text-justify: inter-word distribute-all-lines;
-  letter-spacing: normal;
+  letter-spacing: 0.009rem;
 }
 
 /* Header-Style */
