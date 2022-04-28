@@ -21,7 +21,7 @@ p {
   font-size: 14px;
   text-align:justify;
   text-justify: inter-word distribute-all-lines;
-  letter-spacing: 0.009rem;
+  letter-spacing: 0.005rem;
 }
 
 /* Header-Style */
@@ -272,6 +272,10 @@ p {
 }
 
 /* Hero-Image */
+.hero-container {
+  padding: 12px;
+}
+
 #hero {
   width: 100%;
   height: 100vh;
@@ -356,6 +360,7 @@ section {
   padding-bottom: 10px;
   position: relative;
   color: #173b6c;
+  letter-spacing: 0.05rem;
 }
 
 .section-title h2::after {
