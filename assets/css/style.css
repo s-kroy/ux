@@ -360,7 +360,7 @@ section {
   padding-bottom: 10px;
   position: relative;
   color: #173b6c;
-  letter-spacing: 0.05rem;
+  letter-spacing: 0.5px;
 }
 
 .section-title h2::after {
