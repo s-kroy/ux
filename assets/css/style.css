@@ -1061,7 +1061,9 @@ margin-top: 20px;
   text-align: center;
   font-size: 10px;
   font-weight: 400;
-  color: #3c4261;
+  border: #3c4261 solid 1px;
+  padding: 2px 8px 2px 8px;
+  border-radius: 12px;
 }
 
 #footer .copyright a:hover {
@@ -1080,6 +1082,7 @@ margin-top: 20px;
   font-size: xx-small;
   color: #3c4261;
   text-align: center;
+  padding-top: 6px;
 }
 
 @media (max-width: 1199px) {
