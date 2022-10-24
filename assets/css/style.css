@@ -682,7 +682,7 @@ margin-top: 20px;
   bottom: 0;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 320px) {
   #portfolio-flters {
     display: none;
   }
