@@ -104,14 +104,12 @@ p {
 /* Side-Navigation */
 .navbar-icons {
   fill: #6f7180;
-  width: 36px;
-  height: 36px;
+  width: 24px;
 }
 
 .navbar-icons:hover {
   fill: #fff;
-  width: 36px;
-  height: 36px;
+  width: 24px;
 }
 
 .nav-menu span {
