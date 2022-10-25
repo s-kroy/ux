@@ -407,46 +407,6 @@ section {
   margin-bottom: 0;
 }
 
-/* Work-Experience */
-.work_experience .big-icon-box {
-  margin-left: 30px;
-}
-
-.work_experience .count-box {
-  padding: 20px;
-  width: 100%;
-}
-
-.work_experience .count-box span {
-  font-size: 40px;
-  display: block;
-  font-weight: 700;
-  color: #173b6c;
-  margin-top: -40px;
-  line-height: 20px; 
-  text-align: right;
-  margin-right: 30px;
-}
-
-.work_experience .count-box p {
-  font-family: "Raleway", sans-serif;
-  font-size: 20px;
-  font-weight: 600;
-  color: #1379a8;
-  text-align: center;
-  margin-top: 30px;
-}
-
-.work_experience .big-icons {
-  fill: #1379a8;
-  width: 60px;
-}
-
-.work_experience #big-icon-row {
-margin-bottom: 50px;
-margin-top: 20px;
-}
-
 /* academic-educations */
 .work_experience h5 {
   font-size: 20px;
@@ -564,15 +524,46 @@ margin-top: 20px;
 }
 
 /* Key-Achievement */
-.key_achievement ul{
-  margin-left: -20px;
-  margin-right: 4px;
-  text-justify: distribute-all-lines;
-  color: #1379a8;
-  font-family: "Raleway", sans-serif;
-  font-size: 12px;
+#Key-Achievement .count-box {
+  width: 100%;
+  padding: 30px;
 }
 
+#Key-Achievement .count-box span {
+  font-size: 40px;
+  display: block;
+  font-weight: 700;
+  color: #173b6c;
+  margin-top: -40px;
+  margin-left: 125px;
+  line-height: 20px;
+  margin-right: 30px;
+}
+
+#Key-Achievement .count-box p {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #1379a8;
+  text-align: center;
+  margin-top: 30px;
+}
+
+#Key-Achievement .big-icons {
+  fill: #1379a8;
+  width: 60px;
+  margin-left: 50px;
+}
+
+#Key-Achievement #big-icon-row {
+margin: 50px;
+}
+
+#Key-Achievement li {
+  list-style-type: '☆';
+  padding: 4px 4px 4px 18px;
+  color: #1379a8;
+}
 
 /* Portfolio-Preview */
 .small-icons {
