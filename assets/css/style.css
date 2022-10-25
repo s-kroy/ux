@@ -416,33 +416,34 @@ section {
   margin-bottom: 4px;
 }
 
-.work_experience .resume-title{
-  font-size: 22px;
+.work_experience .resume-title {
+  font-size: 20px;
   font-weight: 600;
-  margin-bottom: 22px;
   color: #1379a8;
   text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-.work_experience .education h5{
+.work_experience .education h5 {
   margin-left: -10px;
   padding-top: 2px;
 }
 
-.work_experience .education ul{
+.work_experience .education ul {
   color: #1379a8;
   margin-left: -35px;
   font-size: 14px;
 }
 
 /* professional-courses */
-.work_experience .certification h5{
+.work_experience .certification h5 {
   margin-left: -8px;
   font-size: 16px;
   margin-top: 4px;
 }
 
-.work_experience .certification ul a{
+.work_experience .certification ul a {
   padding: 2px 10px 2px 2px;
   color: #1379a8;
   background-color: #e4edf9;
@@ -564,6 +565,11 @@ margin: 50px;
   padding: 4px 4px 4px 18px;
   color: #1379a8;
 }
+
+#Key-Achievement ul {
+  padding: 4px 4px 4px 18px;
+}
+
 
 /* Portfolio-Preview */
 .small-icons {
