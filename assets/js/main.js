@@ -2,7 +2,20 @@
 !(function ($) {
   "use strict";
 
-  // Animated Typed Texts on Hero Background
+// jQuery Initial All Section Content Appear
+  AOS.init({
+    duration: 1000,
+    easing: "ease-in-out-back"
+  });
+  })(jQuery);
+
+//  jQuery Numarical Numbers Animate Counter 
+$('[data-toggle="counter-up"]').counterUp({
+  delay: 10,
+  time: 1000
+});
+
+// Animated Typed Texts on Hero Background
   if ($('.typed').length) {
     var typed_strings = $(".typed").data('typed-items');
     typed_strings = typed_strings.split(',')
@@ -15,7 +28,7 @@
     });
   }
 
-  // Smooth Scroll For Navigation Menu Links
+// Vertical Smooth Scroll For Navigation Menu
   $(document).on('click', '.nav-menu a, .scrollto', function (e) {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
       e.preventDefault();
@@ -42,25 +55,26 @@
     }
   });
 
+// Mobile Navigation Link Selected Function
   $(document).on('click', '.mobile-nav-toggle', function (e) {
     $('body').toggleClass('mobile-nav-active');
-    $('.mobile-nav-toggle i').toggleClass('icofont-navigation-menu icofont-close');
+    $('.mobile-nav-toggle i');
   });
 
+// Mob Navigation Menu Toggle Active Links
   $(document).click(function (e) {
     var container = $(".mobile-nav-toggle");
     if (!container.is(e.target) && container.has(e.target).length === 0) {
       if ($('body').hasClass('mobile-nav-active')) {
         $('body').removeClass('mobile-nav-active');
-        $('.mobile-nav-toggle i').toggleClass('icofont-navigation-menu icofont-close');
+        $('.mobile-nav-toggle i');
       }
     }
   });
 
-  // Navigation Active State Cursor on Scroll
+// Navigation Active State Cursor on Scroll
   var nav_sections = $('section');
   var main_nav = $('.nav-menu, #mobile-nav');
-
   $(window).on('scroll', function () {
     var cur_pos = $(this).scrollTop() + 10;
 
@@ -80,7 +94,7 @@
     });
   });
 
-  // Back To Top Button Scroll To Portal Top
+// Back To Top Button Scroll To Start Point
   $(window).scroll(function () {
     if ($(this).scrollTop() > 100) {
       $('.back-to-top').fadeIn('slow');
@@ -89,6 +103,7 @@
     }
   });
 
+// On Click Website Logo Back To Start Point
   $('.back-to-top').click(function () {
     $('html, body').animate({
       scrollTop: 0
@@ -96,13 +111,7 @@
     return false;
   });
 
-  //  jQuery Numbers Count Up Experience Icon 
-  $('[data-toggle="counter-up"]').counterUp({
-    delay: 10,
-    time: 1000
-  });
-
-  // Techical Skills Animate Progressive Bars
+// Animated Progressive Bar On First Time
   $('.skills-content').waypoint(function () {
     $('.progress .progress-bar').each(function () {
       $(this).css("width", $(this).attr("aria-valuenow") + '%');
@@ -111,7 +120,7 @@
     offset: '80%'
   });
 
-  // Porfolio Section Selection Filter Widget
+// Porfolio Section Selection Filter Widget
   $(window).on('load', function () {
     var portfolioIsotope = $('.portfolio-container').isotope({
       itemSelector: '.portfolio-item',
@@ -133,7 +142,7 @@
     });
   });
 
-  // Testimonial Owl Carousel library Comment
+//  Always Animated Carousel library Comment
   $(".testimonials-carousel").owlCarousel({
     autoplay: true,
     dots: true,
@@ -151,28 +160,7 @@
     }
   });
 
-  // jQuery Initial All Section Content Appear
-  AOS.init({
-    duration: 1000,
-    easing: "ease-in-out-back"
-  });
-  })(jQuery);
-
-  // On Click Hamburger Back to Initial Stage
-  const menuBtn = document.querySelector('box-background');
-  let menuOpen = false;
-  menuBtn.addEventListener('click', () => {
-    if (!menuOpen) {
-      menuBtn.classList.add('open');
-      menuOpen = true;
-    } else {
-      menuBtn.classList.remove('open');
-      menuOpen = false;
-    }
-  }
-  );
-
-  // On Click Hamburger Lines Transform Cross
+// On Click Hamburger Lines Transform Cross
   function myFunction(x) {
     x.classList.toggle("change");
   }
