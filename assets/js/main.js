@@ -86,6 +86,7 @@ $('[data-toggle="counter-up"]').counterUp({
         if (cur_pos <= bottom) {
           main_nav.find('li').removeClass('active');
         }
+        main_nav.find('#menu-line-icon').removeClass('change');
         main_nav.find('a[href="#' + $(this).attr('id') + '"]').parent('li').addClass('active');
       }
       if (cur_pos < 200) {
