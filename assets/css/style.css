@@ -1054,7 +1054,7 @@ margin: 50px;
   display: none;
   right: 14px;
   bottom: 14px;
-  background: #3c4261;
+  background: rgba(19, 121, 168, 0.818);
   z-index: 99999;
   height: 50px;
   width: 30px;
@@ -1062,16 +1062,25 @@ margin: 50px;
   transition: all .5s ease-in-out;
   cursor: pointer;
   text-align: center;
-  line-height: 46px;
+  line-height: 54px;
 }
-
 .back-to-top:hover {
-  background: #1379a8;
+  background: rgba(9, 19, 48, 0.50);
   transition: background 0.5s ease-in-out;
 }
 
-.back-to-top p {
-  font-size: 24px;
-  color: #ffffff;
-  margin-top: 1px;
+/* Arrow-Animation */
+.scroll-up-arrow {
+  cursor: pointer;
+  border: solid #ffffff;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 5px 5px;
+  animation: fade_move_up 4s ease-in-out infinite;
+}
+
+@keyframes fade_move_up {
+  100%   { transform:translate(0,-10px) rotate(-135deg); opacity: 0;  }
+  50%  { opacity: 1;  }
+  0% { transform:translate(0,10px) rotate(-135deg); opacity: 0; }
 }
