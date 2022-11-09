@@ -1054,7 +1054,7 @@ margin: 50px;
   display: none;
   right: 14px;
   bottom: 14px;
-  background: rgba(19, 121, 168, 0.818);
+  background: #e4edf9;
   z-index: 99999;
   height: 50px;
   width: 30px;
@@ -1065,15 +1065,15 @@ margin: 50px;
   line-height: 54px;
 }
 .back-to-top:hover {
-  background: rgba(9, 19, 48, 0.50);
+  background: rgba(19, 121, 168, 0.5);
   transition: background 0.5s ease-in-out;
 }
 
 /* Arrow-Animation */
 .scroll-up-arrow {
   cursor: pointer;
-  border: solid #ffffff;
-  border-width: 0 1px 1px 0;
+  border: solid #1379a8;
+  border-width: 0 1.5px 1.5px 0;
   display: inline-block;
   padding: 5px 5px;
   animation: fade_move_up 4s ease-in-out infinite;
