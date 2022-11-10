@@ -28,7 +28,7 @@ $('[data-toggle="counter-up"]').counterUp({
     });
   }
 
-// Vertical Smooth Scroll For Navigation Menu
+// Vertical Smooth Scroll Navigation Menu
   $(document).on('click', '.nav-menu a, .scrollto', function (e) {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
       e.preventDefault();
@@ -103,14 +103,15 @@ $('[data-toggle="counter-up"]').counterUp({
       $('.back-to-top').fadeOut('slow');
     }
   });
-
-// On Click Website Logo Back To Start Point
   $('.back-to-top').click(function () {
     $('html, body').animate({
       scrollTop: 0
     }, 1500, 'easeInOutExpo');
     return false;
   });
+
+// Back To Top Button And Arrow Animation
+
 
 // Animated Progressive Bar On First Time
   $('.skills-content').waypoint(function () {

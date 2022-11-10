@@ -1005,11 +1005,11 @@ margin: 50px;
   width: 240px;
   z-index: 9999;
   background: #091330;
-  padding: 2px 4px;
 }
 
 #footer .copyright {
   text-align: center;
+  padding: 8px;
 }
 
 #footer .copyright a {
@@ -1037,7 +1037,6 @@ margin: 50px;
   font-size: 10px;
   color: #3c4261;
   text-align: center;
-  padding-top: 6px;
 }
 
 @media (max-width: 1199px) {
@@ -1049,6 +1048,26 @@ margin: 50px;
 }
 
 /* Back-To-Top */
+.scroll-up-arrow {
+  cursor: pointer;
+  border: solid #1379a8;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 4px 4px;
+  transform:translate(0,-10px) rotate(-135deg);
+  margin-top: 21px;
+}
+
+.arrow-straight-line {
+  cursor: pointer;
+  position: fixed;
+  background: #1379a8;
+  height: 20px;
+  width: 1px;
+  margin-top: 10px;
+  margin-left: -5px;
+}
+
 .back-to-top {
   position: fixed;
   display: none;
@@ -1056,31 +1075,17 @@ margin: 50px;
   bottom: 14px;
   background: #e4edf9;
   z-index: 99999;
-  height: 50px;
-  width: 30px;
+  height: 40px;
+  width: 24px;
   border-radius: 50px;
   transition: all .5s ease-in-out;
   cursor: pointer;
   text-align: center;
-  line-height: 54px;
-}
-.back-to-top:hover {
-  background: rgba(19, 121, 168, 0.5);
-  transition: background 0.5s ease-in-out;
-}
-
-/* Arrow-Animation */
-.scroll-up-arrow {
-  cursor: pointer;
-  border: solid #1379a8;
-  border-width: 0 1.5px 1.5px 0;
-  display: inline-block;
-  padding: 5px 5px;
-  animation: fade_move_up 4s ease-in-out infinite;
+  animation: fade_move_up 8s ease-in-out infinite;
 }
 
 @keyframes fade_move_up {
-  100%   { transform:translate(0,-10px) rotate(-135deg); opacity: 0;  }
-  50%  { opacity: 1;  }
-  0% { transform:translate(0,10px) rotate(-135deg); opacity: 0; }
+  100% { opacity: 0; }
+  50%  { opacity: 1; }
+  0%   { opacity: 0; }
 }
