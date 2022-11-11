@@ -534,9 +534,28 @@ margin: 50px;
 
 
 /* Portfolio-Activity */
-.small-icons {
+.hidden-smaller-icons {
   fill: #fff;
-  width: 35px;
+  width: 34px;
+}
+
+[data-title]:hover:after {
+  opacity: 1;
+  transition: all 0.2s ease 0.5s;
+  visibility: visible;
+}
+
+[data-title]:after {
+  content: attr(data-title);
+  background-color: #ffffff;
+  color: #1379a8;
+  font-size: 12px;
+  position: sticky;
+  padding: 2px 6px;
+  white-space: nowrap;
+  border-radius: 2px;
+  z-index: 99999;
+  visibility: hidden;
 }
 
 .portfolio_activity .portfolio-item {
@@ -1088,35 +1107,3 @@ margin: 50px;
   background: #1379a865;
   transition: background 0.5s ease-in-out;
 }
-
-
-
-/* data-title="Local Download"
-data-title="Zoom Slideshow"
-
-[data-title]:hover:after {
-  opacity: 1;
-  transition: all 0.2s ease 0.5s;
-  visibility: visible;
-}
-
-[data-title]:after {
-  content: attr(data-title);
-  background-color: #e4edf9;
-  color: #1379a8;
-  font-size: 12px;
-  position: relative;
-  padding: 2px 6px;
-  white-space: nowrap;
-  box-shadow: 1px 1px 1px #7f7f7f78;
-  opacity: 0;
-  border-radius: 2px;
-  z-index: 99999;
-  visibility: hidden;
-  bottom: 10%;
-}
-
-[data-title] {
-  position: relative;
-} */
-
