@@ -110,9 +110,6 @@ $('[data-toggle="counter-up"]').counterUp({
     return false;
   });
 
-// Back To Top Button And Arrow Animation
-
-
 // Animated Progressive Bar On First Time
   $('.skills-content').waypoint(function () {
     $('.progress .progress-bar').each(function () {

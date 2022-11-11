@@ -536,8 +536,38 @@ margin: 50px;
 /* Portfolio-Activity */
 .small-icons {
   fill: #fff;
-  width: 30px;
+  width: 35px;
 }
+
+
+/* data-title="Local Download"
+data-title="Zoom Slideshow"
+
+[data-title]:hover:after {
+  opacity: 1;
+  transition: all 0.2s ease 0.5s;
+  visibility: visible;
+}
+
+[data-title]:after {
+  content: attr(data-title);
+  background-color: #e4edf9;
+  color: #1379a8;
+  font-size: 12px;
+  position: relative;
+  padding: 2px 6px;
+  white-space: nowrap;
+  box-shadow: 1px 1px 1px #7f7f7f78;
+  opacity: 0;
+  border-radius: 2px;
+  z-index: 99999;
+  visibility: hidden;
+  bottom: 10%;
+}
+
+[data-title] {
+  position: relative;
+} */
 
 .portfolio_activity .portfolio-item {
   margin-bottom: 30px;
@@ -604,7 +634,7 @@ margin: 50px;
   opacity: 1;
   left: 0;
   right: 0;
-  bottom: -160px;
+  bottom: -150px;
   z-index: 2;
   position: absolute;
   transition: all ease-in-out 0.3s;
