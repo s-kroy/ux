@@ -539,36 +539,6 @@ margin: 50px;
   width: 35px;
 }
 
-
-/* data-title="Local Download"
-data-title="Zoom Slideshow"
-
-[data-title]:hover:after {
-  opacity: 1;
-  transition: all 0.2s ease 0.5s;
-  visibility: visible;
-}
-
-[data-title]:after {
-  content: attr(data-title);
-  background-color: #e4edf9;
-  color: #1379a8;
-  font-size: 12px;
-  position: relative;
-  padding: 2px 6px;
-  white-space: nowrap;
-  box-shadow: 1px 1px 1px #7f7f7f78;
-  opacity: 0;
-  border-radius: 2px;
-  z-index: 99999;
-  visibility: hidden;
-  bottom: 10%;
-}
-
-[data-title] {
-  position: relative;
-} */
-
 .portfolio_activity .portfolio-item {
   margin-bottom: 30px;
 }
@@ -1035,11 +1005,11 @@ data-title="Zoom Slideshow"
   width: 240px;
   z-index: 9999;
   background: #091330;
+  text-align: center;
 }
 
-#footer .copyright {
-  text-align: center;
-  padding: 8px;
+.copyright {
+  padding-top: 6px;
 }
 
 #footer .copyright a {
@@ -1063,17 +1033,18 @@ data-title="Zoom Slideshow"
   cursor: pointer;
 }
 
-#footer-text p{
+#footer .copyright p {
   font-size: 10px;
   color: #3c4261;
   text-align: center;
+  padding-top: 6px;
 }
 
 @media (max-width: 1199px) {
   #footer {
     position: static;
     width: auto;
-    padding-right: 20px 15px;
+    padding: 10px;
   }
 }
 
@@ -1088,14 +1059,14 @@ data-title="Zoom Slideshow"
   margin-top: 21px;
 }
 
-.arrow-straight-line {
+.scroll-up-arrow:hover {
   cursor: pointer;
-  position: fixed;
-  background: #1379a8;
-  height: 20px;
-  width: 1px;
-  margin-top: 10px;
-  margin-left: -5px;
+  border: solid #ffffff;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 4px 4px;
+  transform:translate(0,-10px) rotate(-135deg);
+  margin-top: 21px;
 }
 
 .back-to-top {
@@ -1105,17 +1076,47 @@ data-title="Zoom Slideshow"
   bottom: 14px;
   background: #e4edf9;
   z-index: 99999;
-  height: 40px;
-  width: 24px;
+  height: 30px;
+  width: 30px;
   border-radius: 50px;
   transition: all .5s ease-in-out;
   cursor: pointer;
   text-align: center;
-  animation: fade_move_up 8s ease-in-out infinite;
 }
 
-@keyframes fade_move_up {
-  100% { opacity: 0; }
-  50%  { opacity: 1; }
-  0%   { opacity: 0; }
+.back-to-top:hover {
+  background: #1379a865;
+  transition: background 0.5s ease-in-out;
 }
+
+
+
+/* data-title="Local Download"
+data-title="Zoom Slideshow"
+
+[data-title]:hover:after {
+  opacity: 1;
+  transition: all 0.2s ease 0.5s;
+  visibility: visible;
+}
+
+[data-title]:after {
+  content: attr(data-title);
+  background-color: #e4edf9;
+  color: #1379a8;
+  font-size: 12px;
+  position: relative;
+  padding: 2px 6px;
+  white-space: nowrap;
+  box-shadow: 1px 1px 1px #7f7f7f78;
+  opacity: 0;
+  border-radius: 2px;
+  z-index: 99999;
+  visibility: hidden;
+  bottom: 10%;
+}
+
+[data-title] {
+  position: relative;
+} */
+
