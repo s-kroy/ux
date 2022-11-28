@@ -341,8 +341,8 @@ section {
 }
 
 .section-subtitle {
-  font-size: 22px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 500;
   color: #006fa3;
   padding: 20px 0px 10px 20px;
 }
@@ -392,7 +392,7 @@ section {
 
 /* ===================== Certification-Training ===================== */ 
 .work_experience .certification h5 {
-  font-size: 16px;
+  font-size: 18px;
   margin-top: 4px;
   padding-left: 40px;
 }
@@ -446,7 +446,7 @@ section {
 
 .work_experience .employment h3 {
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 500;
   color: #1379a8;
   padding: 0px 4px;
   margin: 6.5px;
