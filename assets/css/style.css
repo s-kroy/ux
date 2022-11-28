@@ -1,4 +1,4 @@
-/* Basic-Styling */
+/* ===================== Basic-Styling ===================== */ 
 body {
   font-family: "Open Sans", sans-serif;
   color: #082d58;
@@ -22,7 +22,7 @@ p {
   letter-spacing: 0.005rem;
 }
 
-/* Header-Styling */
+/* ===================== Header-Styling ===================== */ 
 #header {
   position: fixed;
   top: 0;
@@ -50,7 +50,7 @@ p {
   }
 }
 
-/* Logo-Styling */
+/* ===================== Logo-Styling ===================== */ 
 #header .logo {
   fill: #fff;
   width: 115px;
@@ -79,7 +79,7 @@ p {
   transition-delay: 0s;
 }
 
-/* Social-Icons */
+/* ===================== Social-Links ===================== */ 
 #header .social-links a {
   font-size: 10px;
   display: inline-flex;
@@ -98,7 +98,7 @@ p {
   text-decoration: none;
 }
 
-/* Desktop-Navigation */
+/* ===================== Desktop-Navigation ===================== */ 
 .nav-menu * {
   margin: 0;
   padding: 0;
@@ -154,7 +154,7 @@ p {
   color: #ffffff;
 }
 
-/* Mobile-Hamburger */
+/* ===================== Mobile-Hamburger ===================== */ 
 .mobile-nav-toggle {
   position: fixed;
   left: 15px;
@@ -233,7 +233,7 @@ p {
   transform: rotate(45deg) translateY(0px);
 }
 
-/* Hero-Background */
+/* ===================== Hero-Background ===================== */ 
 .hero-container {
   padding: 12px;
 }
@@ -301,7 +301,7 @@ p {
   }
 }
 
-/* Section-Styling */
+/* ===================== Section-Styling ===================== */ 
 section {
   padding: 60px 0;
   overflow: hidden;
@@ -347,7 +347,7 @@ section {
   padding: 20px 0px 10px 20px;
 }
 
-/* Profile-Depiction */
+/* ===================== Profile-Depiction ===================== */ 
 #profile-pic {
   border: 1px solid #1379a8;
   border-radius: 8px;
@@ -369,7 +369,7 @@ section {
   margin-bottom: 0;
 }
 
-/* Academic-Education */
+/* ===================== Academic-Education ===================== */ 
 .work_experience h5 {
   font-size: 20px;
   padding: 5px 15px;
@@ -390,7 +390,7 @@ section {
   padding-left: 40px;
 }
 
-/* Certification-Training */
+/* ===================== Certification-Training ===================== */ 
 .work_experience .certification h5 {
   font-size: 16px;
   margin-top: 4px;
@@ -415,7 +415,7 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-/* Employment-History */
+/* ===================== Employment-History ===================== */ 
 #Employment-History {
     padding: 0px 20px;
   }
@@ -427,30 +427,29 @@ section {
 }
 
 .work_experience .employment h5 {
-  font-size: 14px;
+  font-size: 13px;
   background: #e4edf9;
   display: inline-block;
-  font-weight: 600;
+  font-weight: 500;
   border-radius: 0px 40px 40px 0px;
   color: #1379a8;
   margin-left: -20px;
   padding-left: 30px;
-  margin-top: -2px;
 }
 
 .work_experience .employment h4 {
   font-size: 18px;
   font-weight: 600;
   padding: 0px 4px;
-  margin: 5px;
+  margin: 6.5px;
 }
 
 .work_experience .employment h3 {
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 600;
   color: #1379a8;
   padding: 0px 4px;
-  margin: 8px;
+  margin: 6.5px;
 }
 
 .work_experience .employment:last-child {
@@ -460,16 +459,16 @@ section {
 .work_experience .employment::before {
   content: "";
   position: absolute;
-  width: 20px;
-  height: 20px;
+  width: 26px;
+  height: 25px;
   border-radius: 50px;
-  top: 1px;
-  left: -11px;
+  top: .5px;
+  left: -14px;
   background: #e4edf9;
   border: 2px solid #1379a8;
 }
 
-/* Animated-Icons */
+/* ===================== Animated-Numarical ===================== */ 
 #Animated-Icons .count-box {
   width: 100%;
   padding: 20px;
@@ -505,7 +504,7 @@ section {
   margin: 10px;
 }
 
-/* Key-Achievements */
+/* ===================== Key-Achievements ===================== */ 
 #Key-Achievements {
 margin-left: -10px;
 }
@@ -517,7 +516,7 @@ margin-left: -10px;
   font-size: 14px;
 }
 
-/* Portfolio-Activity */
+/* ===================== Portfolio-Activity ===================== */ 
 .hidden-smaller-icons {
   fill: #fff;
   width: 34px;
@@ -661,7 +660,7 @@ margin-left: -10px;
   }
 }
 
-/* Tools-Proficiency */
+/* ===================== Tools-Proficiency ===================== */ 
 #tools-proficiency {
   padding: 0px 20px;
 }
@@ -699,7 +698,7 @@ margin-left: -10px;
   background-color: #1379a8;
 }
 
-/* Design-Expertise */
+/* ===================== Design-Expertise ===================== */ 
 .ux-skills .icon-box {
   margin-bottom: 20px;
 }
@@ -744,7 +743,7 @@ margin-left: -10px;
   margin-top: 10px;
 }
 
-/* Tag-Testimonials */
+/* ===================== Tag-Testimonials ===================== */ 
 #tagged-comments {
   padding-left: 4px;
 }
@@ -879,7 +878,7 @@ margin-left: -10px;
   }
 }
 
-/* Contact-Synopsis */
+/* ===================== Contact-Synopsis ===================== */ 
 .contact-details .address-details {
   padding: 20px;
   background: #fff;
@@ -894,7 +893,7 @@ margin-left: -10px;
 }
 
 .contact-details .address-details p {
-  font-size: 12px;
+  font-size: 13px;
   color: #173b6c;
 }
 
@@ -991,7 +990,7 @@ margin-left: -10px;
   }
 }
 
-/* Footer-Style */
+/* ===================== Footer-Style ===================== */ 
 #footer {
   color: #f4f6fd;
   position: fixed;
@@ -1042,7 +1041,7 @@ margin-left: -10px;
   }
 }
 
-/* Back-To-Top */
+/* ===================== Back-To-Top ===================== */ 
 .scroll-up-arrow {
   cursor: pointer;
   border: solid #1379a8;
