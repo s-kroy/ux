@@ -369,7 +369,7 @@ section {
   margin-bottom: 0;
 }
 
-/* ===================== Academic-Education ===================== */ 
+/* ===================== Academic-Educations ===================== */ 
 .work_experience h5 {
   font-size: 20px;
   padding: 5px 15px;
@@ -390,7 +390,7 @@ section {
   padding-left: 40px;
 }
 
-/* ===================== Certification-Training ===================== */ 
+/* ===================== Course-&-Certification ===================== */ 
 .work_experience .certification h5 {
   font-size: 16px;
   margin-top: 4px;
@@ -519,7 +519,7 @@ margin-left: -10px;
   font-size: 14px;
 }
 
-/* ===================== Portfolio-Activity ===================== */ 
+/* ===================== Portfolio-Preview ===================== */ 
 .hidden-smaller-icons {
   fill: #fff;
   width: 34px;
@@ -555,11 +555,11 @@ margin-left: -10px;
   }
 }
 
-.portfolio_activity .portfolio-item {
+.portfolio_preview .portfolio-item {
   margin-bottom: 30px;
 }
 
-.portfolio_activity #portfolio-flters {
+.portfolio_preview #portfolio-flters {
   padding: 0;
   margin: 0 auto 35px auto;
   list-style: none;
@@ -568,7 +568,7 @@ margin-left: -10px;
   border-radius: 50px;
 }
 
-.portfolio_activity #portfolio-flters li {
+.portfolio_preview #portfolio-flters li {
   cursor: pointer;
   display: inline-block;
   padding: 10px 15px 8px 15px;
@@ -581,8 +581,8 @@ margin-left: -10px;
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio_activity #portfolio-flters li:hover,
-.portfolio_activity #portfolio-flters li.filter-active {
+.portfolio_preview #portfolio-flters li:hover,
+.portfolio_preview #portfolio-flters li.filter-active {
   color: #082d58;
   background: rgba(20, 157, 221, 0.295);
   line-height: 1;
@@ -590,11 +590,11 @@ margin-left: -10px;
   border-radius: 50px;
 }
 
-.portfolio_activity #portfolio-flters li:last-child {
+.portfolio_preview #portfolio-flters li:last-child {
   margin-right: 0;
 }
 
-.portfolio_activity .portfolio-wrap {
+.portfolio_preview .portfolio-wrap {
   transition: 0.3s;
   position: relative;
   overflow: hidden;
@@ -603,7 +603,7 @@ margin-left: -10px;
   border: solid .5px lightgray;
 }
 
-.portfolio_activity .portfolio-wrap::before {
+.portfolio_preview .portfolio-wrap::before {
   content: "";
   background: rgba(255, 255, 255, 0.5);
   position: absolute;
@@ -616,7 +616,7 @@ margin-left: -10px;
   opacity: 0;
 }
 
-.portfolio_activity .portfolio-wrap .portfolio-links {
+.portfolio_preview .portfolio-wrap .portfolio-links {
   opacity: 1;
   left: 0;
   right: 0;
@@ -627,7 +627,7 @@ margin-left: -10px;
   display: flex;
 }
 
-.portfolio_activity .portfolio-wrap .portfolio-links a {
+.portfolio_preview .portfolio-wrap .portfolio-links a {
   color: #fff;
   font-size: 16px;
   text-align: center;
@@ -636,15 +636,15 @@ margin-left: -10px;
   width: 50%;
 }
 
-.portfolio_activity .portfolio-wrap .portfolio-links a:hover {
+.portfolio_preview .portfolio-wrap .portfolio-links a:hover {
   background: rgba(20, 157, 221, 0.80);
 }
 
-.portfolio_activity .portfolio-wrap .portfolio-links a + a {
+.portfolio_preview .portfolio-wrap .portfolio-links a + a {
   border-left: 1px solid #149ddd;
 }
 
-.portfolio_activity .portfolio-wrap:hover::before {
+.portfolio_preview .portfolio-wrap:hover::before {
   top: 0;
   left: 0;
   right: 0;
@@ -652,7 +652,7 @@ margin-left: -10px;
   opacity: 1;
 }
 
-.portfolio_activity .portfolio-wrap:hover .portfolio-links {
+.portfolio_preview .portfolio-wrap:hover .portfolio-links {
   opacity: 1;
   bottom: 0;
 }
@@ -663,7 +663,7 @@ margin-left: -10px;
   }
 }
 
-/* ===================== Tools-Proficiency ===================== */ 
+/* ===================== Techinical-Proficiency ===================== */ 
 #tools-proficiency {
   padding: 0px 20px;
 }
@@ -746,7 +746,7 @@ margin-left: -10px;
   margin-top: 10px;
 }
 
-/* ===================== Tag-Testimonials ===================== */ 
+/* ===================== Testimonial-Hashtags ===================== */ 
 #tagged-comments {
   padding-left: 4px;
 }
