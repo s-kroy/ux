@@ -472,7 +472,7 @@ section {
 #Animated-Icons .count-box {
   width: 100%;
   padding: 20px;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 #Animated-Icons .count-box span {
@@ -480,28 +480,31 @@ section {
   display: block;
   font-weight: 600;
   color: #1379a8;
-  margin-top: -30px;
-  margin-left: 125px;
-  line-height: 20px;
-  margin-right: 30px;
+  text-align:center;
+  margin-left: 60px;
+  margin-top: 4px;
 }
 
 #Animated-Icons .count-box p {
   font-size: 20px;
   font-weight: 600;
   text-align: center;
-  margin-top: 15px;
   color: #014b6e;
 }
 
 #Animated-Icons .big-icons {
   fill: #1379a8;
   width: 60px;
-  margin-left: 50px;
 }
 
 #Animated-Icons #big-icon-row {
-  margin: 10px;
+  margin: 20px;
+}
+
+.big-icon-box {
+  line-height: 3rem;
+  margin-bottom: -60px;
+  margin-left: 50px;
 }
 
 /* ===================== Key-Achievements ===================== */ 
