@@ -700,7 +700,7 @@ margin-left: -10px;
   background-color: #1379a8;
 }
 
-/* ===================== Design-Expertise ===================== */ 
+/* ===================== UX-Design-Skills ===================== */ 
 .ux-skills .icon-box {
   margin-bottom: 20px;
 }
@@ -1014,24 +1014,18 @@ margin-left: -10px;
 }
 
 /* ===================== Back-To-Top ===================== */ 
-.scroll-up-arrow {
+.back-to-top-icon {
   cursor: pointer;
-  border: solid #1379a8;
-  border-width: 0 1px 1px 0;
-  display: inline-block;
-  padding: 4px 4px;
-  transform:translate(0,-10px) rotate(-135deg);
-  margin-top: 21px;
+  fill:#1379a8;
+  width: 50px;
+  margin-top: 4px;
+  margin-left: -10px;
 }
 
-.scroll-up-arrow:hover {
+.back-to-top-icon:hover {
   cursor: pointer;
-  border: solid #ffffff;
-  border-width: 0 1px 1px 0;
-  display: inline-block;
-  padding: 4px 4px;
-  transform:translate(0,-10px) rotate(-135deg);
-  margin-top: 21px;
+  fill:#ffffff;
+  transition: all .5s ease-in-out;
 }
 
 .back-to-top {
@@ -1041,7 +1035,7 @@ margin-left: -10px;
   bottom: 14px;
   background: #e4edf9;
   z-index: 99999;
-  height: 30px;
+  height: 60px;
   width: 30px;
   border-radius: 50px;
   transition: all .5s ease-in-out;
@@ -1050,6 +1044,7 @@ margin-left: -10px;
 }
 
 .back-to-top:hover {
-  background: #1379a865;
+  background: #1379a8;
   transition: background 0.5s ease-in-out;
 }
+
