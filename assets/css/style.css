@@ -80,22 +80,22 @@ p {
 }
 
 /* ===================== Social-Links ===================== */ 
+#header .social-icons {
+  width: 36px;
+}
+
 #header .social-links a {
-  font-size: 10px;
   display: inline-flex;
   background: #3c4261;
   fill: #091330;
   border-radius: 50%;
   width: 36px;
-  height: 36px;
   transition: 0.9s;
   margin-top: 30px;
 }
 
 #header .social-links a:hover {
-  background: #3c4261;
   fill: #fff;
-  text-decoration: none;
 }
 
 /* ===================== Desktop-Navigation ===================== */ 
