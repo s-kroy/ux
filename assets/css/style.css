@@ -508,12 +508,12 @@ section {
 
 /* ===================== Reward-&-Recognition ===================== */ 
 #Key-Achievements {
-margin-left: -10px;
+margin-left: 14px;
 }
 
 #Key-Achievements li {
   list-style-type: '☆';
-  padding: 4px 4px 4px 12px;
+  padding: 6px 6px 6px 12px;
   color: #014b6e;
   font-size: 14px;
 }
