@@ -427,7 +427,7 @@ section {
 }
 
 .work_experience .employment h5 {
-  font-size: 13px;
+  font-size: 12px;
   background: #e4edf9;
   display: inline-block;
   font-weight: 500;
@@ -459,16 +459,16 @@ section {
 .work_experience .employment::before {
   content: "";
   position: absolute;
-  width: 26px;
-  height: 25px;
+  width: 24px;
+  height: 24px;
   border-radius: 50px;
-  top: .5px;
-  left: -14px;
+  top: 2px;
+  left: -13px;
   background: #e4edf9;
   border: 2px solid #1379a8;
 }
 
-/* ===================== Animated-Numarical ===================== */ 
+/* ===================== Numbers-Animation ===================== */ 
 #Animated-Icons .count-box {
   width: 100%;
   padding: 20px;
@@ -498,7 +498,7 @@ section {
 }
 
 #Animated-Icons #big-icon-row {
-  margin: 20px;
+  margin: 10px;
 }
 
 .big-icon-box {
