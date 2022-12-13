@@ -390,14 +390,14 @@ section {
   padding-left: 40px;
 }
 
-/* ===================== Course-&-Certification ===================== */ 
-.work_experience .certification h5 {
+/* ===================== Course-&-Certificatio ===================== */ 
+.work_experience .Course-Certificatio h5 {
   font-size: 16px;
   margin-top: 4px;
   padding-left: 40px;
 }
 
-.work_experience .certification ul a {
+.work_experience .Course-Certificatio ul a {
   padding: 4px 12px 4px 10px;
   color: #1379a8;
   background-color: #e4edf9;
@@ -406,7 +406,7 @@ section {
   margin-left: -2px;
 }
 
-.work_experience .certification ul a:hover {
+.work_experience .Course-Certificatio ul a:hover {
   padding: 4px 12px 4px 10px;
   color: #fff;
   background-color: #1379a8;
@@ -468,7 +468,7 @@ section {
   border: 2px solid #1379a8;
 }
 
-/* ===================== Numbers-Animation ===================== */ 
+/* ===================== Animated-Numbericon ===================== */ 
 #Animated-Icons .count-box {
   width: 100%;
   padding: 20px;
@@ -507,11 +507,7 @@ section {
 }
 
 /* ===================== Reward-&-Recognition ===================== */ 
-#Key-Achievements {
-margin-left: 14px;
-}
-
-#Key-Achievements li {
+#Reward-Recognition li {
   list-style-type: '☆';
   padding: 6px 6px 6px 12px;
   color: #014b6e;
