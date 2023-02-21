@@ -517,7 +517,7 @@ section {
 /* ===================== Portfolio-Preview ===================== */ 
 .hidden-smaller-icons {
   fill: #fff;
-  width: 30px;
+  width: 36px;
 }
 
 [data-title]:hover:after {
@@ -541,9 +541,6 @@ section {
 @media screen and (max-width: 600px) {
   [data-title] {
     visibility: hidden;
-    clear: both;
-    float: left;
-    margin: 10px;
     display: none;
   }
 }
