@@ -390,7 +390,7 @@ section {
   padding-left: 40px;
 }
 
-/* ===================== Course-&-Certificatio ===================== */ 
+/* ===================== Certificate-&-Credentials ===================== */ 
 .work_experience .Course-Certificatio h5 {
   font-size: 16px;
   margin-top: 4px;
@@ -421,13 +421,13 @@ section {
   }
 
 .work_experience .employment {
-  padding: 0 0 30px 20px;
+  padding: 0 0 36px 20px;
   border-left: 2px solid #1379a8;
   position: relative;
 }
 
 .work_experience .employment h5 {
-  font-size: 12px;
+  font-size: 14px;
   background: #e4edf9;
   display: inline-block;
   font-weight: 500;
@@ -506,7 +506,7 @@ section {
   margin-left: 55px;
 }
 
-/* ===================== Reward-&-Recognition ===================== */
+/* ===================== Rewards-&-Recognition ===================== */
 #Reward-Recognition li {
   list-style-type: '☆';
   padding: 6px 6px 6px 12px;
