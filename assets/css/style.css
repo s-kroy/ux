@@ -415,11 +415,9 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-span {
-  display: inline-block;
-}
 .flipH {
   transform: scale(-1, 1);
+  display: inline-block;
 }
 
 /* ===================== Employment-History ===================== */ 
@@ -428,7 +426,7 @@ span {
   }
 
 .work_experience .employment {
-  padding: 0 0 37px 20px;
+  padding: 0 0 30px 20px;
   border-left: 2px solid #1379a8;
   position: relative;
 }
@@ -448,7 +446,7 @@ span {
   font-size: 18px;
   font-weight: 600;
   padding: 0px 4px;
-  margin: 6.5px;
+  margin: 6px;
 }
 
 .work_experience .employment h3 {
