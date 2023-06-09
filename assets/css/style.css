@@ -392,14 +392,13 @@ section {
 
 /* ===================== Certificate-&-Credentials ===================== */ 
 .work_experience .Course-Certificatio h5 {
-  font-size: 16px;
-  margin-top: 6px;
+  font-size: 17px;
+  margin-top: 12.5px;
   padding-left: 40px;
-  padding-bottom: -8px;
 }
 
 .work_experience .Course-Certificatio ul a {
-  padding: 4px 10px 4px 10px;
+  padding: 4px 10px;
   color: #1379a8;
   background-color: #e4edf9;
   border-radius: 14px 40px 40px 14px;
@@ -407,7 +406,7 @@ section {
 }
 
 .work_experience .Course-Certificatio ul a:hover {
-  padding: 4px 10px 4px 10px;
+  padding: 4px 10px;
   color: #fff;
   background-color: #1379a8;
   border-radius: 14px 40px 40px 14px;
@@ -519,7 +518,7 @@ section {
   font-size: 14px;
 }
 
-/* ===================== Portfolio-Preview ===================== */ 
+/* ===================== Portfolio-Widgets ===================== */ 
 .hidden-smaller-icons {
   fill: #fff;
   width: 36px;
@@ -741,7 +740,7 @@ section {
   margin-top: 10px;
 }
 
-/* ===================== Testimonial-Hashtags ===================== */ 
+/* ===================== Received-Testimonials ===================== */ 
 #tagged-comments {
   padding-left: 4px;
 }
