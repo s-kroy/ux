@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  font-size: 14px;
+  font-size: 15px;
   letter-spacing: 0.005rem;
 }
 
@@ -65,21 +65,10 @@ p {
 
 #header .logo:hover {
   fill: #3c4261;
-  width: 115px;
-  height: 115px;
-  position: relative;
-  margin: 50px auto auto;
-  display: block;
-  border-radius: 100px;
-  border: 4px solid #3c4261;
-  padding: 14px;
-  transition-property: all;
-  transition-duration: 0.5s;
-  transition-timing-function: ease;
-  transition-delay: 0s;
+  transition: all 0.5s ease 0s;
 }
 
-/* ===================== Social-Links ===================== */ 
+/* ===================== Social-Media ===================== */ 
 #header .social-icons {
   width: 36px;
 }
@@ -98,11 +87,33 @@ p {
   fill: #fff;
 }
 
-/* ===================== Desktop-Navigation ===================== */ 
+/* ===================== Side-Navigation ===================== */ 
 .nav-menu * {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.nav-menu {
+  padding-top: 40px;
+}
+
+.nav-menu a {
+  display: flex;
+  align-items: center;
+  color: #6f7180;
+  transition: color 0.3s ease;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.nav-menu a:hover,
+.nav-menu .active > a {
+  color: #ffffff;
+}
+
+.nav-menu li:hover > a {
+  color: #00d0ff;
 }
 
 .navbar-icons {
@@ -110,9 +121,9 @@ p {
   width: 26px;
 }
 
-.navbar-icons:hover {
+.nav-menu a:hover .navbar-icons,
+.nav-menu .active > a .navbar-icons {
   fill: #00d0ff;
-  width: 28px;
 }
 
 .nav-menu span {
@@ -124,34 +135,6 @@ p {
 
 .sidebar-link ul {
   margin-top: 30px;
-}
-
-.nav-menu {
-  padding-top: 40px;
-}
-
-.nav-menu a {
-  display: flex;
-  align-items: center;
-  color: #6f7180;
-  transition: 0.3s;
-  font-size: 16px;
-}
-
-.nav-menu .active > a  {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.nav-menu li:hover > a {
-  color: #00d0ff;
-  text-decoration: none;
-}
-
-.nav-menu a:hover 
-.nav-menu li:hover > a {
-  text-decoration: none;
-  color: #ffffff;
 }
 
 /* ===================== Mobile-Hamburger ===================== */ 
@@ -231,6 +214,30 @@ p {
 
 .change .burger-bar-3 {
   transform: rotate(45deg) translateY(0px);
+}
+
+/* ===================== Resume Download ===================== */ 
+#resume-button {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+}
+
+.download-button a {
+  font-size: 12px;
+  font-weight: 400;
+  border: #3c4261 solid 1px;
+  padding: 4px 12px;
+  border-radius: 5rem;
+  text-decoration: none;
+  color: #3c4261;
+}
+
+.download-button a:hover {
+  color: #ffffff;
+  background: #666d8f;
+  transition: all .5s ease-in-out;
+  cursor: pointer;
 }
 
 /* ===================== Hero-Background ===================== */ 
@@ -341,10 +348,11 @@ section {
 }
 
 .section-subtitle {
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 22px;
+  font-weight: 600;
   color: #006fa3;
   padding: 20px 0px 10px 20px;
+  letter-spacing: 0.05rem;
 }
 
 /* ===================== Profile-Depiction ===================== */ 
@@ -494,10 +502,11 @@ section {
 }
 
 #Animated-Icons .count-box p {
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 500;
   text-align: center;
   color: #014b6e;
+  margin-top: 10px;
 }
 
 #Animated-Icons .big-icons {
@@ -973,36 +982,11 @@ section {
   text-align: center;
 }
 
-.footer-items {
-  padding: 8px 2px;
-}
-
-#footer .footer-items a {
-  text-align: center;
-  font-size: 10px;
-  font-weight: 400;
-  border: #3c4261 solid 1px;
-  padding: 2px 12px;
-  border-radius: 12px;
-}
-
-#footer .footer-items a:hover {
-  text-align: center;
-  font-size: 10px;
-  font-weight: 400;
-  color: #091330;
-  background: #666d8f;
-  padding: 2px 12px;
-  border-radius: 12px;
-  transition: all .5s ease-in-out;
-  cursor: pointer;
-}
-
 #footer .footer-items p {
   font-size: 10px;
   color: #3c4261;
   text-align: center;
-  padding-top: 6px;
+  padding: 8px 2px;
 }
 
 @media (max-width: 1199px) {
