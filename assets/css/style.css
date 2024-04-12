@@ -351,8 +351,8 @@ section {
   font-size: 22px;
   font-weight: 600;
   color: #006fa3;
-  padding: 20px 0px 10px 20px;
   letter-spacing: 0.05rem;
+  margin-left: 10px;
 }
 
 /* ===================== Profile-Depiction ===================== */ 
@@ -388,47 +388,37 @@ section {
 
 .work_experience .education h5 {
   padding-top: 2px;
-  padding-left: 40px;
+  padding-left: 20px;
   font-size: 18px;
 }
 
 .work_experience .education ul {
   color: #1379a8;
   font-size: 14px;
-  padding-left: 40px;
+  padding-left: 20px;
 }
 
 /* ===================== Certificate-&-Credentials ===================== */ 
-.work_experience .Course-Certificatio h5 {
+.work_experience .Course-Certification h5 {
   font-size: 17px;
-  margin-top: 12.5px;
-  padding-left: 40px;
+  padding-left: 20px;
 }
 
-.work_experience .Course-Certificatio ul a {
+.work_experience .Course-Certification ul a {
   padding: 4px 10px;
   color: #1379a8;
   background-color: #e4edf9;
-  border-radius: 14px 40px 40px 14px;
+  border-radius: 40px 40px 40px 40px;
   font-size: 12px;
 }
 
-.work_experience .Course-Certificatio ul a:hover {
+.work_experience .Course-Certification ul a:hover {
   padding: 4px 10px;
   color: #fff;
   background-color: #1379a8;
-  border-radius: 14px 40px 40px 14px;
+  border-radius: 40px 40px 40px 40px;
   font-size: 12px;
   transition: all 0.3s ease-in-out;
-}
-
-.flipH {
-  transform: scale(-1, 1);
-  display: inline-block;
-}
-
-.iti {
-  align-items: flex-end;
 }
 
 /* ===================== Employment-History ===================== */ 
