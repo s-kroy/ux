@@ -1,4 +1,4 @@
-/* ===================== Basic-Styling ===================== */ 
+/* ===================== Basic Style ===================== */ 
 body {
   font-family: "Open Sans", sans-serif;
   color: #082d58;
@@ -22,7 +22,7 @@ p {
   letter-spacing: 0.005rem;
 }
 
-/* ===================== Header-Styling ===================== */ 
+/* ===================== Header Style ===================== */ 
 #header {
   position: fixed;
   top: 0;
@@ -50,7 +50,7 @@ p {
   }
 }
 
-/* ===================== Logo-Styling ===================== */ 
+/* ===================== Logo Style ===================== */ 
 #header .logo {
   fill: #fff;
   width: 115px;
@@ -68,7 +68,7 @@ p {
   transition: all 0.5s ease 0s;
 }
 
-/* ===================== Social-Media ===================== */ 
+/* ===================== Social Media ===================== */ 
 #header .social-icons {
   width: 36px;
 }
@@ -87,7 +87,7 @@ p {
   fill: #fff;
 }
 
-/* ===================== Side-Navigation ===================== */ 
+/* ===================== Side Navigation ===================== */ 
 .nav-menu * {
   margin: 0;
   padding: 0;
@@ -137,7 +137,7 @@ p {
   margin-top: 30px;
 }
 
-/* ===================== Mobile-Hamburger ===================== */ 
+/* ===================== Mobile Hamburger ===================== */ 
 .mobile-nav-toggle {
   position: fixed;
   left: 15px;
@@ -240,7 +240,7 @@ p {
   cursor: pointer;
 }
 
-/* ===================== Hero-Background ===================== */ 
+/* ===================== Hero Background ===================== */ 
 .hero-container {
   padding: 12px;
 }
@@ -308,7 +308,7 @@ p {
   }
 }
 
-/* ===================== Section-Styling ===================== */ 
+/* ===================== Section Style ===================== */ 
 section {
   padding: 60px 0;
   overflow: hidden;
@@ -332,7 +332,7 @@ section {
   content: "";
   position: absolute;
   display: block;
-  width: 50px;
+  width: 150px;
   height: 4px;
   background: #1379a8;
   bottom: 0;
@@ -355,7 +355,7 @@ section {
   margin-left: 10px;
 }
 
-/* ===================== Profile-Depiction ===================== */ 
+/* ===================== Profile Depiction ===================== */ 
 #profile-pic {
   border: 1px solid #1379a8;
   border-radius: 8px;
@@ -377,7 +377,7 @@ section {
   margin-bottom: 0;
 }
 
-/* ===================== Academic-Educations ===================== */ 
+/* ===================== Academic Educations ===================== */ 
 .work_experience h5 {
   font-size: 20px;
   padding: 5px 15px;
@@ -398,21 +398,30 @@ section {
   padding-left: 20px;
 }
 
-/* ===================== Certificate-&-Credentials ===================== */ 
-.work_experience .Course-Certification h5 {
-  font-size: 17px;
+/* ===================== Professional Certificates ===================== */ 
+.work_experience .certification h5 {
+  font-size: 18px;
   padding-left: 20px;
+  letter-spacing: 0.008rem;
 }
 
-.work_experience .Course-Certification ul a {
+.work_experience .certification h6 {
+  font-size: 14px;
+  padding-left: 20px;
+  letter-spacing: 0.008rem;
+  color: #1379a8;
+}
+
+.work_experience .certification ul a {
   padding: 4px 10px;
   color: #1379a8;
   background-color: #e4edf9;
   border-radius: 40px 40px 40px 40px;
   font-size: 12px;
+  margin-left: -20px;
 }
 
-.work_experience .Course-Certification ul a:hover {
+.work_experience .certification ul a:hover {
   padding: 4px 10px;
   color: #fff;
   background-color: #1379a8;
@@ -421,13 +430,10 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-/* ===================== Employment-History ===================== */ 
-#Employment-History {
-    padding: 0px 20px;
-  }
+/* ===================== Employment Experience ===================== */ 
 
 .work_experience .employment {
-  padding: 0 0 30px 20px;
+  padding: 0 0 38px 20px;
   border-left: 2px solid #1379a8;
   position: relative;
 }
@@ -468,13 +474,13 @@ section {
   width: 24px;
   height: 24px;
   border-radius: 50px;
-  top: 2px;
+  top: 0px;
   left: -13px;
   background: #e4edf9;
   border: 2px solid #1379a8;
 }
 
-/* ===================== Animated-Numbericon ===================== */ 
+/* ===================== Animated Numbericon ===================== */ 
 #Animated-Icons .count-box {
   width: 100%;
   padding: 20px;
