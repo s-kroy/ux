@@ -486,9 +486,9 @@ section {
   background: #e4edf9;
   display: inline-block;
   font-weight: 500;
-  border-radius: 50px;
+  border-radius: 4px;
   color: #1379a8;
-  margin-left: 10px;
+  margin-left: 12px;
   border: 1px solid #1379a8;
   margin-top: 10px;
 }
@@ -528,7 +528,7 @@ section {
 .work_experience .employment::after {
   content: "";
   position: absolute;
-  width: 6px;
+  width: 8px;
   height: 1px;
   top: 23.5px;
   left: 4px;
@@ -537,12 +537,12 @@ section {
 
 /* ===================== Award & Achievement ===================== */
 #Reward-Recognition {
-margin-left: -6px;
+margin-left: -20px;
 }
 
 #Reward-Recognition li {
-  list-style-type: '☆';
-  padding: 6px 6px 6px 12px;
+  list-style-type: '★';
+  padding: 6px 12px;
   color: #014b6e;
   font-size: 14px;
 }
