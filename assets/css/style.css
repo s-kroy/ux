@@ -553,12 +553,6 @@ margin-left: -20px;
   width: 36px;
 }
 
-[data-title]:hover:after {
-  opacity: 1;
-  transition: all 0.2s ease 0.5s;
-  visibility: visible;
-}
-
 [data-title]:after {
   content: attr(data-title);
   background-color: #ffffff;
@@ -569,6 +563,13 @@ margin-left: -20px;
   border-radius: 10px;
   z-index: 99999;
   visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s ease 0.5s;
+}
+
+[data-title]:hover:after {
+  visibility: visible;
+  opacity: 1;
 }
 
 @media screen and (max-width: 600px) {
